@@ -16,3 +16,5 @@ https://www.linkedin.com/in/nalin-dalal-815617271/
 https://github.com/nalindalal
 https://twitter.com/nalin82929
 - 😄 Pronouns: He/Him
+
+<a href="https://app.daily.dev/nalindalal"><img src="https://api.daily.dev/devcards/v2/qF9V3bmYJu3nPSeaBLJsi.png?type=wide&r=dkg" width="652" alt="Nalin Dalal's Dev Card"/></a>
