@@ -12,6 +12,7 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with TypeScript
 - 💬 Ask me about C++,bash,macos,DSA,CP,MERN
 - 📫 How to reach me:
+- 
 https://www.linkedin.com/in/nalin-dalal-815617271/
 
 https://github.com/nalindalal
