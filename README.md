@@ -13,7 +13,9 @@ Here are some ideas to get you started:
 - 💬 Ask me about C++,bash,macos,DSA,CP,MERN
 - 📫 How to reach me:
 https://www.linkedin.com/in/nalin-dalal-815617271/
+
 https://github.com/nalindalal
+
 https://twitter.com/nalin82929
 - 😄 Pronouns: He/Him
 
