@@ -22,3 +22,6 @@ jobs:
           git add -A .
           git commit -m "generated"
           git push
+
+ uses: yoshi389111/github-profile-3d-contrib@0.7.1
+
