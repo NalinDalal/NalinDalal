@@ -26,7 +26,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 -----------------------------------------------------------
 ## 🐍 Contribution Snake
-
+![](./profile-3d-contrib/profile-green-animate.svg)
 
 
 ## 📅 Contribution Calendar
