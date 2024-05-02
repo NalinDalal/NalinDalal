@@ -27,15 +27,12 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 -----------------------------------------------------------
 ## 🐍 Contribution Snake
 
-![snake gif](https://github.com/nalindalal/nalindalal/blob/output/github-contribution-grid-snake.gif)
+
 
 ## 📅 Contribution Calendar
 
-![3D Contribution Calendar](https://github.com/nalindalal/your_repository/blob/output/github-user-contribution.svg)
+
 
 -----------------------------------
 contribution snake
-![GitHub Contribution Snake Animation](dist/github-contribution-grid-snake.svg)
 
-
-[nalindalal.github.io/snk](https://nalindalal.github.io/snk)
