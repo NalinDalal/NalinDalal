@@ -11,6 +11,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ## 📫 How to reach me:
 
 [![Twitter](https://img.shields.io/twitter/follow/nalin-dalal-815617271?style=social)](https://twitter.com/nalin82929)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/nalin-dalal-815617271/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-follow-black)](https://github.com/nalindalal)
