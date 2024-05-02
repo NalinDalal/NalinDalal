@@ -112,3 +112,6 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ![Shell](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![MacOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
+<p>[![trophy](https://github-profile-trophy.vercel.app/?username=your-github-username)](https://github.com/ryo-ma/github-profile-trophy)
+</p>
