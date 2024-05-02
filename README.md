@@ -49,4 +49,4 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ![GitHub Skyline](https://skyline.github.com/nalindalal/2023)
 ---------------------------------------------
 <p>Snake</p>
- ![Snake animation](https://github.com/NalinDalal/eagrundy/blob/output/github-contribution-grid-snake.svg)
+ ![Snake animation](https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.svg)
