@@ -115,3 +115,4 @@ stable
 [![Prisma] (https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)]
 
 nextjs,postgres,neondb,sql,mongo db,nosql,aws
+[! https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white]
