@@ -31,3 +31,10 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ## 📅 Contribution Calendar
 
 ![3D Contribution Calendar](https://github.com/nalindalal/your_repository/blob/output/github-user-contribution.svg)
+
+-----------------------------------
+<a href="https://platane.github.io/snk">
+  <img height="300px" src="https://user-images.githubusercontent.com/1659820/121798244-7c86d700-cc25-11eb-8c1c-b8e65556ac0d.gif" ></img>
+</a>
+
+[platane.github.io/snk](https://platane.github.io/snk)
