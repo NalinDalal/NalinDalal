@@ -10,7 +10,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 - 💬 Ask me about **C++,bash,macos,DSA,MERN,react, js, competitive programming**
 - 🔭 I’m currently working on **user app like schools, colleges have**
 - 📫 How to reach me **nalindalal2004@gmail.com**
-- 
+  
   
 ## 📫 How to reach me:
 
