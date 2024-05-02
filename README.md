@@ -47,3 +47,6 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nalindalal&" alt="nalindalal" /></p>
 ![GitHub Skyline](https://skyline.github.com/nalindalal/2023)
+---------------------------------------------
+<p>Snake</p>
+ ![Snake animation](https://github.com/NalinDalal/eagrundy/blob/output/github-contribution-grid-snake.svg)
