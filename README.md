@@ -9,12 +9,6 @@ I'm [Nalin], a [Software Dev & Student] passionate about [Everything in tech].
 - 💬 Ask me about C++,bash,macos,DSA,CP,MERN
   
 ## 📫 How to reach me:
-  
-https://www.linkedin.com/in/nalin-dalal-815617271/
-
-https://github.com/nalindalal
-
-https://twitter.com/nalin82929
 
 [![Twitter](https://img.shields.io/twitter/follow/nalin-dalal-815617271?style=social)](https://twitter.com/nalin82929)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/nalin-dalal-815617271/)
