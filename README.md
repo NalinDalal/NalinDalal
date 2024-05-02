@@ -1,6 +1,6 @@
 # Hi there! 👋
 
-I'm [Nalin], a [Software Dev & Student] passionate about [Everything in tech].
+I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 - 🔭 I’m currently working on a personalised project to render user details, allow him her to fetch other user details
 - 🌱 I’m currently learning Web Stack from 0 to Advanced
