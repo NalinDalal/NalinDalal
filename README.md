@@ -24,6 +24,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 <a href="https://app.daily.dev/nalindalal"><img src="https://api.daily.dev/devcards/v2/qF9V3bmYJu3nPSeaBLJsi.png?type=wide&r=dkg" width="652" alt="Nalin Dalal's Dev Card"/></a>
 
+-----------------------------------------------------------
 ## 🐍 Contribution Snake
 
 ![snake gif](https://github.com/nalindalal/nalindalal/blob/output/github-contribution-grid-snake.gif)
@@ -33,8 +34,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ![3D Contribution Calendar](https://github.com/nalindalal/your_repository/blob/output/github-user-contribution.svg)
 
 -----------------------------------
-<a href="https://nalindalal.github.io">
-  <img height="300px" src="https://user-images.githubusercontent.com/1659820/121798244-7c86d700-cc25-11eb-8c1c-b8e65556ac0d.gif" ></img>
-</a>
+
+
 
 [nalindalal.github.io/snk](https://nalindalal.github.io/snk)
