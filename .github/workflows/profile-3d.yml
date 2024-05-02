@@ -23,5 +23,5 @@ jobs:
           git commit -m "generated"
           git push
 
- uses: yoshi389111/github-profile-3d-contrib@0.7.1
+ uses: NalinDalal/github-profile-3d-contrib@0.7.1
 
