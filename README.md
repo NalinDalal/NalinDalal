@@ -116,3 +116,5 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 <p>
   [![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)]
 </p>
+<p>[![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)](https://github.com/ryo-ma/github-profile-trophy)
+</p>
