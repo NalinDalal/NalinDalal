@@ -7,10 +7,37 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 - 🌱 I’m currently learning Web Stack from 0 to  **Advanced Web Development**
 - 👯 I’m looking to collaborate on various Projects
 - 🤔 I’m looking for help with TypeScript
-- 💬 You can ask me about **C++,DSA, competitive programming,**
-  **bash,macos,**
-  **MERN,react,js,**
-  **nosql,sql,postgres,neondb,mongodb,moongoose**
+- 💬 You can ask me about 
+
+**Programming Languages and Technologies:**
+1. **C++**
+2. **HTML/CSS**
+3. **JavaScript (JS)**
+4. **Node.js**
+5. **Express.js**
+6. **MongoDB**
+7. **Mongoose**
+8. **React**
+9. **TypeScript**
+10. **TailWind**
+11. **Bash** (Shell scripting)
+
+**Data Structures and Algorithms (DSA):**
+1. **DSA (Data Structures and Algorithms)**
+2. **Competitive Programming**
+3. **Algorithm Desiging**
+
+**Databases:**
+1. **NoSQL** (including **MongoDB**)
+2. **SQL** (Structured Query Language)
+3. **PostgreSQL**
+4. **NeonDB**
+
+**Operating Systems:**
+1. **macOS** (macOS-specific development or usage)
+2. **Windows**
+
+
 - 🔭 I’m currently working on **user app like schools, colleges have**
 - 📫 How to reach me **nalindalal2004@gmail.com**
   
