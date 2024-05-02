@@ -50,3 +50,5 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ---------------------------------------------
 <p>Snake</p>
  ![Snake animation](https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.svg)
+----------------------------------------------
+![Your Contribution Calendar](https://img.shields.io/github/commit-activity/w/NalinDalal/NalinDalal?label=Contribution%20Calendar)
