@@ -114,7 +114,4 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 
-  ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)
-<p>
-  ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal) (https://github.com/ryo-ma/github-profile-trophy)
-</p>
+![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)
