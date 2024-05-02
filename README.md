@@ -15,10 +15,6 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ## 📫 How to reach me:
 
 <h3 align="left">Connect with me:</h3>
-[![Twitter](https://img.shields.io/twitter/follow/nalin-dalal-815617271?style=social)](https://twitter.com/nalin82929)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/nalin-dalal-815617271/)
-
 [![GitHub](https://img.shields.io/badge/GitHub-follow-black)](https://github.com/nalindalal)
 
 <p align="left">
@@ -27,6 +23,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 <a href="https://instagram.com/nalin__dalal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="nalin__dalal" height="30" width="40" /></a>
 <a href="https://medium.com/@nalindalal2004" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@nalindalal2004" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/https://leetcode.com/u/nalindalal2004/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/nalindalal2004/" height="30" width="40" /></a>
+  <a href="https://github.com/nalindalal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@nalindalal" height="30" width="40" /></a>
 </p>
 
 - 😄 Pronouns: He/Him
