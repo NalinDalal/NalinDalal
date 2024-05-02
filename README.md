@@ -28,8 +28,6 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 ## 📊 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=nalindalal&show_icons=true&theme=radical)
-
 <a href="https://app.daily.dev/nalindalal"><img src="https://api.daily.dev/devcards/v2/qF9V3bmYJu3nPSeaBLJsi.png?type=wide&r=dkg" width="652" alt="Nalin Dalal's Dev Card"/></a>
 
 
