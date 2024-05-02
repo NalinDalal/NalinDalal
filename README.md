@@ -30,7 +30,7 @@ https://twitter.com/nalin82929
 
 ## 🐍 Contribution Snake
 
-![snake gif](https://github.com/nalindalal/your_repository/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/nalindalal/nalindalal/blob/output/github-contribution-grid-snake.gif)
 
 ## 📅 Contribution Calendar
 
