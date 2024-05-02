@@ -46,3 +46,4 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nalindalal&show_icons=true&locale=en" alt="nalindalal" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nalindalal&" alt="nalindalal" /></p>
+![GitHub Skyline](https://skyline.github.com/nalindalal/2023)
