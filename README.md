@@ -7,7 +7,10 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 - 🌱 I’m currently learning Web Stack from 0 to  **Advanced Web Development**
 - 👯 I’m looking to collaborate on various Projects
 - 🤔 I’m looking for help with TypeScript
-- 💬 Ask me about **C++,bash,macos,DSA,MERN,react, js, competitive programming**
+- 💬 You can ask me about **C++,DSA, competitive programming,
+  bash,macos,
+  MERN,react,js,
+  nosql,sql,postgres,neondb,mongodb,moongoose**
 - 🔭 I’m currently working on **user app like schools, colleges have**
 - 📫 How to reach me **nalindalal2004@gmail.com**
   
