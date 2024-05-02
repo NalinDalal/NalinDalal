@@ -45,5 +45,3 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nalindalal&show_icons=true&locale=en" alt="nalindalal" /></p>
 -----------
-![Isometric Contributions](https://isometric-contributions.vercel.app/api/NalinDalal)
----------
