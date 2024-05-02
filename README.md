@@ -15,8 +15,6 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ## 📫 How to reach me:
 
 <h3 align="left">Connect with me:</h3>
-[![GitHub](https://img.shields.io/badge/GitHub-follow-black)](https://github.com/nalindalal)
-
 <p align="left">
 <a href="https://twitter.com/nalin82929" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="nalin82929" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/nalin-dalal-815617271" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nalin-dalal-815617271" height="30" width="40" /></a>
