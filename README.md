@@ -75,3 +75,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nalindalal&show_icons=true&locale=en" alt="nalindalal" /></p>
 -----------
+[![NeoVim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/)
+[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?&style=for-the-badge&logo=vim&logoColor=white)](https://vim.io/)
+[![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)]
+
