@@ -44,13 +44,3 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nalindalal&show_icons=true&locale=en&layout=compact" alt="nalindalal" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nalindalal&show_icons=true&locale=en" alt="nalindalal" /></p>
-
-----------------------------------Experiments
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nalindalal&" alt="nalindalal" /></p>
-![GitHub Skyline](https://skyline.github.com/nalindalal/2023)
----------------------------------------------
-<p>Snake</p>
- ![Snake animation](https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.svg)
-----------------------------------------------
-![Your Contribution Calendar](https://img.shields.io/github/commit-activity/w/NalinDalal/NalinDalal?label=Contribution%20Calendar)
---------------------[![Nalin's GitHub stats](https://github-readme-stats.vercel.app/api?username=NalinDalal)](https://github.com/NalinDalal/github-readme-stats)
