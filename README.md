@@ -35,6 +35,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 2. **SQL** (Structured Query Language)
 3. **PostgreSQL**
 4. **NeonDB**
+5. **MongoDB**
 
 **Operating Systems:**
 1. **macOS** (macOS-specific development or usage)
