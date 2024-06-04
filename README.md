@@ -1,7 +1,5 @@
 # Hi there! 👋, I'm Nalin
 
-<!add an image with your name, social media handles or something about yourself>
-
 I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 <h3 align="center">A passionate developer from India</h3>
