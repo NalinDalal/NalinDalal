@@ -69,6 +69,9 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 ## [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=Nalindalal2004)](https://github.com/KnlnKS/leetcode-stats)
 
+new one:
+![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nalindalal&label=Profile%20views&color=0e75b6&style=flat" alt="nalindalal" /> </p>
 
 <p align="left"> <a href="https://twitter.com/nalin82929" target="blank"><img src="https://img.shields.io/twitter/follow/nalin82929?logo=twitter&style=for-the-badge" alt="nalin82929" /></a> </p>
