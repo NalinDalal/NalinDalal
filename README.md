@@ -67,10 +67,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nalindalal&show_icons=true&locale=en" alt="nalindalal" /></p>
 <a href="https://app.daily.dev/nalindalal"><img src="https://api.daily.dev/devcards/v2/qF9V3bmYJu3nPSeaBLJsi.png?type=wide&r=dkg" width="652" alt="Nalin Dalal's Dev Card"/></a>
 
-## [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=Nalindalal2004)](https://github.com/KnlnKS/leetcode-stats)
-
-new one:
-![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)]
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nalindalal&label=Profile%20views&color=0e75b6&style=flat" alt="nalindalal" /> </p>
 
