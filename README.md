@@ -25,6 +25,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 9. **TypeScript**
 10. **TailWind**
 11. **Bash** (Shell scripting)
+12. **Next.js**
 
 **Data Structures and Algorithms (DSA):**
 
