@@ -1,7 +1,5 @@
 # Hi there! 👋, I'm Nalin
 
-<!add an image with your name, social media handles or something about yourself>
-
 I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 <h3 align="center">A passionate developer from India</h3>
@@ -70,7 +68,7 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nalindalal&show_icons=true&locale=en" alt="nalindalal" /></p>
 <a href="https://app.daily.dev/nalindalal"><img src="https://api.daily.dev/devcards/v2/qF9V3bmYJu3nPSeaBLJsi.png?type=wide&r=dkg" width="652" alt="Nalin Dalal's Dev Card"/></a>
 
-## [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=Nalindalal2004)](https://github.com/KnlnKS/leetcode-stats)
+![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nalindalal&label=Profile%20views&color=0e75b6&style=flat" alt="nalindalal" /> </p>
 
