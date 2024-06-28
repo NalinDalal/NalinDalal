@@ -7,7 +7,6 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 - 🔭 I’m currently working on a personalised project to render user details, allow him her to fetch other user details
 - 🌱 I’m currently learning Web Stack from 0 to **Advanced Web Development**
 - 👯 I’m looking to collaborate on various Projects
-- 🤔 I’m looking for help with TypeScript
 - 💬 You can ask me about
 
 **Programming Languages and Technologies:**
