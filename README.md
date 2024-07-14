@@ -115,5 +115,6 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)
+![Share Badge](https://github.com/user-attachments/assets/f0d2a195-0926-40e0-ab1e-e45754c755e2)
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31pinfjvqph5onxeensf4ugzbjpu&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
