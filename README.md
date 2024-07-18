@@ -67,6 +67,11 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 <!--
 <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/shreyash3087/shreyash3087/output/github-contribution-grid-snake.svg" />
 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 <br/>
 <br/>
 
