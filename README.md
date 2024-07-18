@@ -64,7 +64,9 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nalindalal&show_icons=true&locale=en&layout=compact" alt="nalindalal" /></p>
 <!--contribution snake -->
+<!--
 <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/shreyash3087/shreyash3087/output/github-contribution-grid-snake.svg" />
+-->
 <br/>
 <br/>
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
