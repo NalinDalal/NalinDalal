@@ -4,6 +4,12 @@ I'm Nalin, a Software Dev & Student passionate about Everything in tech.
 
 <h3 align="center">A passionate developer from India</h3>
 
+<p align="left">
+Visitor Count:
+<br>
+<img src="https://profile-counter.glitch.me/NalinDalal/count.svg"/>
+  </p>
+
 - 🔭 I’m currently working on a personalised project to render user details, allow him her to fetch other user details
 - 🌱 I’m currently learning Web Stack from 0 to **Advanced Web Development**
 - 👯 I’m looking to collaborate on various Projects
