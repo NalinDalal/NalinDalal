@@ -12,6 +12,18 @@ Visitor Count:
 - 🌱 I’m currently learning Web Stack from 0 to **Advanced Web Development**
 - 📫 How to reach me **nalindalal2004@gmail.com**
 
+## Projects
+
+### Interactive Blogging Platform
+
+An interactive blogging platform created using React and TypeScript. Features include user authentication, blog post management with React Quill Editor, text highlighting, and mobile-friendly UI/UX.
+[Link to Project](https://medium-clone-six-mauve.vercel.app/Blogs/)
+
+### App to convert link to img
+
+A smooth website to convert your links directly to image
+[Link to Another Project](https://qr-code-generator-theta-azure.vercel.app/)
+
 ## 📫 How to reach me:
 
 <a href="https://twitter.com/nalin82929" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="nalin82929" height="30" width="40" /></a>
