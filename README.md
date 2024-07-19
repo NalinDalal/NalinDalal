@@ -1,8 +1,6 @@
 # Hi there! 👋, I'm Nalin
 
-I'm Nalin, a Software Dev & Student passionate about Everything in tech.
-
-<h3 align="center">A passionate developer from India</h3>
+<h3 align="center">I'm a Software Dev & Student from India</h3>
 
 <p align="left">
 Visitor Count:
