@@ -12,8 +12,6 @@ Visitor Count:
 
 - 🔭 I’m currently working on a personalised project to render user details, allow him her to fetch other user details
 - 🌱 I’m currently learning Web Stack from 0 to **Advanced Web Development**
-- 👯 I’m looking to collaborate on various Projects
-- 🔭 I’m currently working on **user app like schools, colleges have**
 - 📫 How to reach me **nalindalal2004@gmail.com**
 
 ## 📫 How to reach me:
