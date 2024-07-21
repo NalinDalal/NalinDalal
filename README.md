@@ -49,10 +49,8 @@ A smooth website to convert your links directly to image
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31pinfjvqph5onxeensf4ugzbjpu&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
 
-<a href="https://github.com/NalinDalal">
-  <img height="155em" src="https://raw.githubusercontent.com/NalinDalal/github-card-template/master/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Nalin Dalal github stats" />
-  <img height="155em" src="https://raw.githubusercontent.com/NalinDalal/github-card-template/master/profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Nalin Dalal github stats" />
-  <img height="155em" src="https://raw.githubusercontent.com/NalinDalal/github-card-template/master/profile-summary-card-output/github_dark/3-stats.svg" alt="Nalin Dalal github stats" />
-  <img height="155em" src="https://raw.githubusercontent.com/NalinDalal/github-card-template/master/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Nalin Dalal github stats" />
-  <img height="160em" src="https://raw.githubusercontent.com/NalinDalal/github-card-template/master/profile-summary-card-output/github_dark/4-productive-time.svg" alt="Nalin Dalal productive time stats" />
-</a>
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NalinDalal&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NalinDalal&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NalinDalal&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NalinDalal&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NalinDalal&theme=default&utcOffset=8)
