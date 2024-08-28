@@ -47,15 +47,6 @@ A smooth website to convert your links directly to image
 [![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)
-![Share Badge](https://github.com/user-attachments/assets/f0d2a195-0926-40e0-ab1e-e45754c755e2)
-
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31pinfjvqph5onxeensf4ugzbjpu&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NalinDalal&theme=default)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NalinDalal&theme=default)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NalinDalal&theme=default)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NalinDalal&theme=default)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NalinDalal&theme=default&utcOffset=8)
 
 ## GSSOC(24) Badges 🪶
 <div style='display:flex; align-items:center; gap: 10px;' align='center'>
@@ -69,3 +60,12 @@ A smooth website to convert your links directly to image
   <img src="https://github.com/girlscript/gssoc-website-new/blob/main/public/badges/7.png" width="100px" height="100px" />
   <img src="https://github.com/girlscript/gssoc-website-new/blob/main/public/badges/8.png" width="100px" height="100px" />
 </div>
+![Share Badge](https://github.com/user-attachments/assets/f0d2a195-0926-40e0-ab1e-e45754c755e2)
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31pinfjvqph5onxeensf4ugzbjpu&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NalinDalal&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NalinDalal&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NalinDalal&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NalinDalal&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NalinDalal&theme=default&utcOffset=8)
