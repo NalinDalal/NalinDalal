@@ -65,15 +65,8 @@ A smooth website to convert your links directly to image
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31pinfjvqph5onxeensf4ugzbjpu&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
 
-// let's see simple one in white
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NalinDalal&theme=default)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NalinDalal&theme=default)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NalinDalal&theme=default)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NalinDalal&theme=default)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NalinDalal&theme=default&utcOffset=8)
-
-//in vibrant colour
-
-[![](https://raw.githubusercontent.com/sanjay-kv/github-card-template/master/profile-summary-card-output/gruvbox/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/sanjay-kv/github-card-template/master/profile-summary-card-output/gruvbox/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/sanjay-kv/github-card-template/master/profile-summary-card-output/gruvbox/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/sanjay-kv/github-card-template/master/profile-summary-card-output/gruvbox/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/sanjay-kv/github-card-template/master/profile-summary-card-output/gruvbox/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
