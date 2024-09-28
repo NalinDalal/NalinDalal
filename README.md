@@ -56,9 +56,3 @@ A smooth website to convert your links directly to image
 </div>
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31pinfjvqph5onxeensf4ugzbjpu&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NalinDalal&theme=default)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NalinDalal&theme=default)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NalinDalal&theme=default)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NalinDalal&theme=default)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NalinDalal&theme=default&utcOffset=8)
