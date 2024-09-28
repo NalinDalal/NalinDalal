@@ -26,10 +26,7 @@ A smooth website to convert your links directly to image
 <a href="https://www.leetcode.com/https://leetcode.com/u/nalindalal2004/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/nalindalal2004/" height="30" width="40" /></a>
 <a href="https://github.com/nalindalal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@nalindalal" height="30" width="40" /></a>
 
-## 📊 GitHub Stats
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nalindalal&show_icons=true&locale=en&layout=compact" alt="nalindalal" /></p>
-<img src="https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.gif" alt="github-contribution-grid-snake" />
 <br/>
 <br/>
 
@@ -51,3 +48,6 @@ A smooth website to convert your links directly to image
   <img src="https://github.com/girlscript/gssoc-website-new/blob/main/public/badges/7.png" width="100px" height="100px" />
   <img src="https://github.com/girlscript/gssoc-website-new/blob/main/public/badges/8.png" width="100px" height="100px" />
 </div>
+
+
+<img src="https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.gif" alt="github-contribution-grid-snake" />
