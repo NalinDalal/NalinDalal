@@ -2,12 +2,6 @@
 
 <h3 align="center">I'm a Software Dev & Student from India</h3>
 
-<p align="left">
-Visitor Count:
-<br>
-<img src="https://profile-counter.glitch.me/NalinDalal/count.svg"/>
-  </p>
-
 - 🔭 I’m currently working on a personalised project to render user details, allow him her to fetch other user details
 - 🌱 I’m currently learning Web Stack from 0 to **Advanced Web Development**
 - 📫 How to reach me **nalindalal2004@gmail.com**
