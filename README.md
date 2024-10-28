@@ -1,9 +1,7 @@
 # Hi there! 👋, I'm Nalin
 
-<h3 align="center">I'm a Software Dev & Student from India</h3>
+<h3 align="center">Full Stack Developer, DevOps</h3>
 
-- 🔭 I’m currently working on a personalised project to render user details, allow him her to fetch other user details
-- 🌱 I’m currently learning Web Stack from 0 to **Advanced Web Development**
 - 📫 How to reach me **nalindalal2004@gmail.com**
 
 ## Projects
@@ -31,7 +29,7 @@ A smooth website to convert your links directly to image
 <br/>
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
-
+![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)
 [![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)
