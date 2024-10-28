@@ -30,6 +30,8 @@ A smooth website to convert your links directly to image
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
 ![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)
+
+<img src="https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004"/>
 [![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)
