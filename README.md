@@ -29,6 +29,7 @@ A smooth website to convert your links directly to image
 <br/>
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
+
 ![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)
 
 <img src="https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004"/>
