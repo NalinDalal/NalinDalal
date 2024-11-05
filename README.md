@@ -35,6 +35,7 @@ A smooth website to convert your links directly to image
 [![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal&theme=onedark)
+
 ![PageSpeed Insights](./insights.svg)
 
 
