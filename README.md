@@ -36,7 +36,5 @@ A smooth website to convert your links directly to image
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal&theme=onedark)
 
-![PageSpeed Insights](./insights.svg)
-
 
 <img src="https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.gif" alt="github-contribution-grid-snake" />
