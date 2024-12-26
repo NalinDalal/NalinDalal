@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm Nalin
+# Hi, I'm Nalin 👋
 
 ### Full Stack Developer | DevOps
 
@@ -6,21 +6,12 @@
 
 ## Projects
 
-### Interactive Blogging Platform
-
-An interactive blogging platform built with React and TypeScript. Features include:
-
-- User authentication
-- Blog post management with React Quill Editor
-- Text highlighting
-- Mobile-friendly UI/UX
-
+**Interactive Blogging Platform**  
+Built with React and TypeScript. Features user authentication, blog management with React Quill Editor, text highlighting, and mobile-friendly UI/UX.  
 [View Project](https://medium-clone-six-mauve.vercel.app/Blogs/)
 
-### Link-to-Image Converter
-
-A seamless website to convert your links directly into images.
-
+**Link-to-Image Converter**  
+A seamless website to convert links directly into images.  
 [View Project](https://qr-code-generator-theta-azure.vercel.app/)
 
 ## Connect with Me
