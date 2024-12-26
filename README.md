@@ -36,5 +36,6 @@ A smooth website to convert your links directly to image
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal&theme=onedark)
 
+![Codeforces](https://badges.riever.dev/codeforces/nalindalal2004.svg)
 
 <img src="https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.gif" alt="github-contribution-grid-snake" />
