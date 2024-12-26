@@ -1,41 +1,66 @@
-# Hi there! 👋, I'm Nalin
+# Hi there! 👋 I'm Nalin
 
-<h3 align="center">Full Stack Developer, DevOps</h3>
+### Full Stack Developer | DevOps
 
-- 📫 How to reach me **nalindalal2004@gmail.com**
+- 📫 Reach me at: **nalindalal2004@gmail.com**
 
 ## Projects
 
 ### Interactive Blogging Platform
 
-An interactive blogging platform created using React and TypeScript. Features include user authentication, blog post management with React Quill Editor, text highlighting, and mobile-friendly UI/UX.
-[Link to Project](https://medium-clone-six-mauve.vercel.app/Blogs/)
+An interactive blogging platform built with React and TypeScript. Features include:
 
-### App to convert link to img
+- User authentication
+- Blog post management with React Quill Editor
+- Text highlighting
+- Mobile-friendly UI/UX
 
-A smooth website to convert your links directly to image
-[Link to Another Project](https://qr-code-generator-theta-azure.vercel.app/)
+[View Project](https://medium-clone-six-mauve.vercel.app/Blogs/)
 
-## 📫 How to reach me:
+### Link-to-Image Converter
 
-<a href="https://twitter.com/nalin82929" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="nalin82929" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/nalin-dalal-815617271" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nalin-dalal-815617271" height="30" width="40" /></a>
-<a href="https://medium.com/@nalindalal2004" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@nalindalal2004" height="30" width="40" /></a>
-<a href="https://leetcode.com/u/nalindalal2004/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/nalindalal2004/" height="30" width="40" /></a>
-<a href="https://github.com/nalindalal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@nalindalal" height="30" width="40" /></a>
+A seamless website to convert your links directly into images.
 
+[View Project](https://qr-code-generator-theta-azure.vercel.app/)
 
-<br/>
-<br/>
-  
+## Connect with Me
+
+<a href="https://twitter.com/nalin82929" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="nalin82929" height="30" width="40" />
+</a>
+<a href="https://linkedin.com/in/nalin-dalal-815617271" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nalin-dalal-815617271" height="30" width="40" />
+</a>
+<a href="https://medium.com/@nalindalal2004" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@nalindalal2004" height="30" width="40" />
+</a>
+<a href="https://leetcode.com/u/nalindalal2004/" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/nalindalal2004/" height="30" width="40" />
+</a>
+<a href="https://github.com/nalindalal" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@nalindalal" height="30" width="40" />
+</a>
+
+## LeetCode Stats
+
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
+
+## LeetCode Badges
 
 ![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)
 
+## Holopin Badges
+
 [![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
+
+## GitHub Trophy
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal&theme=onedark)
 
+## Codeforces Badge
+
 ![Codeforces](https://badges.riever.dev/codeforces/nalindalal2004.svg)
 
-<img src="https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.gif" alt="github-contribution-grid-snake" />
+## GitHub Contribution Snake
+
+![GitHub Contribution Snake](https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.gif)
