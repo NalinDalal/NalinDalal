@@ -36,18 +36,18 @@ A seamless website to convert links directly into images.
 
 [![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)](https://leetcode.com/u/nalindalal2004/)
 
-## Holopin Badges
+## Codeforces Badge
 
-[![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
+[![Codeforces](https://badges.riever.dev/codeforces/nalindalal2004.svg)](https://codeforces.com/profile/nalindalal2004)
 
 ## GitHub Trophy
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal&theme=onedark)
 
-## Codeforces Badge
-
-[![Codeforces](https://badges.riever.dev/codeforces/nalindalal2004.svg)](https://codeforces.com/profile/nalindalal2004)
-
 ## GitHub Contribution Snake
 
 ![GitHub Contribution Snake](https://github.com/NalinDalal/NalinDalal/blob/output/github-contribution-grid-snake.gif)
+
+## Holopin Badges
+
+[![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
