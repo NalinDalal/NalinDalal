@@ -28,8 +28,10 @@ A smooth website to convert your links directly to image
 <br/>
 <br/>
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
 
+<a href="https://www.leetcode.com/https://leetcode.com/u/nalindalal2004/" target="blank">
+![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
+</a>
 ![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)
 
 [![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
