@@ -21,18 +21,15 @@ A smooth website to convert your links directly to image
 <a href="https://twitter.com/nalin82929" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="nalin82929" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/nalin-dalal-815617271" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nalin-dalal-815617271" height="30" width="40" /></a>
 <a href="https://medium.com/@nalindalal2004" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@nalindalal2004" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/u/nalindalal2004/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/nalindalal2004/" height="30" width="40" /></a>
+<a href="https://leetcode.com/u/nalindalal2004/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/nalindalal2004/" height="30" width="40" /></a>
 <a href="https://github.com/nalindalal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@nalindalal" height="30" width="40" /></a>
 
 
 <br/>
 <br/>
-
-
-<a href="https://www.leetcode.com/https://leetcode.com/u/nalindalal2004/" target="blank">
   
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
-</a>
+
 ![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)
 
 [![An image of @nalindalal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nalindalal)](https://holopin.io/@nalindalal)
