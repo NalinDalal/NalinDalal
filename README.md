@@ -1,3 +1,4 @@
+
 # Hi, I'm Nalin 👋
 
 ### Full Stack Developer | DevOps
@@ -25,20 +26,15 @@ A seamless website to convert links directly into images.
 <a href="https://medium.com/@nalindalal2004" target="blank">
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@nalindalal2004" height="30" width="40" />
 </a>
-<a href="https://leetcode.com/u/nalindalal2004/" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/nalindalal2004/" height="30" width="40" />
-</a>
 <a href="https://github.com/nalindalal" target="blank">
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@nalindalal" height="30" width="40" />
 </a>
 
-## LeetCode Stats
+## LeetCode Stats and Badges
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)](https://leetcode.com/u/nalindalal2004/)
 
-## LeetCode Badges
-
-![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)
+[![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)](https://leetcode.com/u/nalindalal2004/)
 
 ## Holopin Badges
 
