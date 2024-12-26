@@ -46,7 +46,7 @@ A seamless website to convert links directly into images.
 
 ## Codeforces Badge
 
-![Codeforces](https://badges.riever.dev/codeforces/nalindalal2004.svg)
+[![Codeforces](https://badges.riever.dev/codeforces/nalindalal2004.svg)](https://codeforces.com/profile/nalindalal2004)
 
 ## GitHub Contribution Snake
 
