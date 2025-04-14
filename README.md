@@ -1,4 +1,3 @@
-
 # Hi, I'm Nalin 👋
 
 ### Full Stack Developer | DevOps
