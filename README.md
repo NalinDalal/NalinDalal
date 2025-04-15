@@ -34,7 +34,7 @@ A seamless website to convert links directly into images.
 [![LeetCode Stats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)](https://leetcode.com/u/nalindalal2004/)
 
 [![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=Nalindalal2004&theme=light&border=border&animated=true)](https://leetcode.com/u/nalindalal2004/)
-[![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=nalindalal2004&theme=light&border=border&animated=true)](https://leetcode.com/u/nalindalal2004/)
+
 
 ## Codeforces Badge
 
