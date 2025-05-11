@@ -1,6 +1,6 @@
 # Hi, I'm Nalin 👋
 
-### Full Stack Developer | DevOps
+### Full Stack Developer | DevOps | Blockchain
 
 - 📫 Reach me at: **nalindalal2004@gmail.com**
 
