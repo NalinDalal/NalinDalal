@@ -4,16 +4,6 @@
 
 - 📫 Reach me at: **nalindalal2004@gmail.com**
 
-## Projects
-
-**Interactive Blogging Platform**  
-Built with React and TypeScript. Features user authentication, blog management with React Quill Editor, text highlighting, and mobile-friendly UI/UX.  
-[View Project](https://medium-clone-six-mauve.vercel.app/Blogs/)
-
-**Link-to-Image Converter**  
-A seamless website to convert links directly into images.  
-[View Project](https://qr-code-generator-theta-azure.vercel.app/)
-
 ## Connect with Me
 
 <a href="https://twitter.com/nalin82929" target="blank">
