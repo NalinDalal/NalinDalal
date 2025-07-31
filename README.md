@@ -5,12 +5,14 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 14 | Open PRs: 7
+📊 Total Merged PRs: 17 | Open PRs: 7
 
 ## ✅ Merged PRs
 - **[removed node modules, updated gitignore](https://github.com/samarth-na/deno/pull/1)**  
   _samarth-na/deno_ • `2025-07-30`  
   > Removes deprecated or redundant code.
+
+
 
 - **[solves docs issue 837 for p5.js 2.x](https://github.com/processing/p5.js-website/pull/879)**  
   _processing/p5.js-website_ • `2025-07-17`  
@@ -40,6 +42,8 @@ I love to solve tough problems
   _Nev-Labs/Website_ • `2024-09-30`  
   > Adds a new feature.
 
+
+
 - **[frontend connectivity](https://github.com/Trisha-tech/OnlineBookSales/pull/161)**  
   _Trisha-tech/OnlineBookSales_ • `2024-06-12`  
   > frontend connectivity.
@@ -59,6 +63,8 @@ I love to solve tough problems
 - **[commands.md](https://github.com/samarth-na/nvim/pull/1)**  
   _samarth-na/nvim_ • `2024-05-25`  
   > commands.md.
+
+
 
 - **[c++ code](https://github.com/samarth-na/clang/pull/1)**  
   _samarth-na/clang_ • `2024-04-08`  
