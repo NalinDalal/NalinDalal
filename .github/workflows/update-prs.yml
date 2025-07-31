@@ -1,6 +1,9 @@
 name: 🔁 Auto Update PR Markdown
 
 on:
+  push:
+    branches:
+      - main       # or your default branch
   schedule:
     - cron: '0 0 * * *' # Runs daily at 00:00 UTC
   workflow_dispatch:
@@ -34,5 +37,3 @@ jobs:
           else
             echo "No changes to commit."
           fi
-
-
