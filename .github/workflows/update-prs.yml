@@ -21,7 +21,7 @@ jobs:
         run: npm install node-fetch --save-dev
 
       - name: 🧠 Generate PR Markdown
-        run: node scripts/update-prs.js
+        run: node scripts/update-prs.mjs
 
       - name: 🚀 Commit & Push changes
         run: |
