@@ -37,4 +37,3 @@ jobs:
           git add README.md
           git commit -m "🔄 auto-update open PRs [bot]" || echo "No changes"
           git push https://x-access-token:${GH_PAT}@github.com/NalinDalal/NalinDalal.git HEAD:main
-
