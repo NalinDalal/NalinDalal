@@ -14,3 +14,8 @@ Each entry includes technical deep dives, challenges faced, and outcomes.
 | p5.js      | GitHub Action to Auto-Link/Close Issues on Dev Branches              | [#7989](https://github.com/processing/p5.js/pull/7989), [#919](https://github.com/processing/p5.js-website/pull/919) | [View write-up](./p5js/auto-close-issues.md) |
 | AsyncAPI   | Refactor: Optimize Edit Link Validator Script                         | [#4126](https://github.com/asyncapi/website/pull/4126)       | [View write-up](./asyncapi/check-edit-links-refactor.md) |
 
+## 🚀 Open Source Pull Requests
+
+<!-- PRS-START -->
+<!-- PRS-END -->
+

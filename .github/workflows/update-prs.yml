@@ -1,0 +1,35 @@
+name: Update PRs in README
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 5:30 AM IST = 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Script to Update README
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: node update-readme.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🔄 auto-update open PRs [bot]" || echo "No changes"
+          git push
+
