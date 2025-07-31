@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *' # Runs daily at 00:00 UTC
+    - cron: '0 */6 * * *' # Every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
           node-version: 20
 
       - name: 📦 Install dependencies
-        run: npm install node-fetch --save-dev
+        run: npm install node-fetch@3
 
       - name: 🧠 Generate PR Markdown
         run: node scripts/update-prs.mjs

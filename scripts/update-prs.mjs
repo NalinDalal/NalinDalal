@@ -1,37 +1,38 @@
+import fetch from "node-fetch";
 import fs from "node:fs";
-const API_URL = "https://api.github.com/search/issues?q=is:pr+author:NalinDalal&per_page=100";
+
+const username = "NalinDalal";
+const API_URL = `https://api.github.com/search/issues?q=is:pr+author:${username}&per_page=100`;
+
+function formatLine(pr) {
+  const repoParts = pr.repository_url.split("/");
+  const owner = repoParts[repoParts.length - 2];
+  if (owner.toLowerCase() === username.toLowerCase()) return null; // Skip personal repos
+  const repo = repoParts.slice(-2).join("/");
+  const date = (pr.pull_request && pr.pull_request.merged_at)
+    ? pr.pull_request.merged_at.split("T")[0]
+    : pr.created_at.split("T")[0];
+  const title = pr.title.replace(/\|/g, "\\|");
+  return `• [${title}](${pr.html_url}) — ${repo} (${date})`;
+}
 
 (async () => {
-  const res = await fetch(API_URL);
+  const res = await fetch(API_URL, { headers: { "Accept": "application/vnd.github+json" } });
+  if (!res.ok) {
+    console.error("Failed to fetch PRs", await res.text());
+    process.exit(1);
+  }
   const data = await res.json();
+
   const merged = [];
   const open = [];
-
-  const summarize = title => {
-    title = title.trim();
-    if (title.toLowerCase().startsWith("fix")) return "Fixes a bug or issue.";
-    if (title.toLowerCase().startsWith("add")) return "Introduces a new feature or enhancement.";
-    if (title.toLowerCase().startsWith("update") || title.toLowerCase().startsWith("upgrade")) return "Updates existing functionality or dependencies.";
-    if (title.toLowerCase().startsWith("remove")) return "Removes deprecated or unnecessary code.";
-    if (title.toLowerCase().startsWith("refactor")) return "Improves code structure without changing behavior.";
-    return title.endsWith(".") ? title : title + ".";
-  };
-
   data.items.forEach(pr => {
-    const repoParts = pr.repository_url.split("/");
-    const owner = repoParts[repoParts.length - 2];
-    if (owner.toLowerCase() === "nalindalal") return;
-
-    const repo = repoParts.slice(-2).join("/");
-    const date = new Date(pr.created_at).toISOString().split("T")[0];
-    const title = pr.title.replace(/\|/g, "\\|");
-    const summary = summarize(pr.title);
-    const line = `• [${title}](${pr.html_url}) — ${repo} (${date})\n  > ${summary}`;
-
+    const line = formatLine(pr);
+    if (!line) return;
     if (pr.state === "closed" && pr.pull_request && pr.pull_request.merged_at) {
-      merged.push({ line, date });
+      merged.push({ line, date: pr.pull_request.merged_at.split("T")[0] });
     } else if (pr.state === "open") {
-      open.push({ line, date });
+      open.push({ line, date: pr.created_at.split("T")[0] });
     }
   });
 
@@ -42,22 +43,27 @@ const API_URL = "https://api.github.com/search/issues?q=is:pr+author:NalinDalal&
     `<!-- PRS-START -->`,
     ``,
     `### ✅ Merged PRs`,
-    merged.length ? merged.map(e => e.line).join("\n\n") : "_No merged PRs yet._",
+    merged.length ? merged.map(e => e.line).join("\n") : "_No merged PRs yet._",
     ``,
     `### 🟡 Open PRs`,
-    open.length ? open.map(e => e.line).join("\n\n") : "_No open PRs._",
+    open.length ? open.map(e => e.line).join("\n") : "_No open PRs._",
     ``,
     `<!-- PRS-END -->`
   ].join("\n");
 
-  const filePath = "./README.md";
-  const readme = fs.readFileSync(filePath, "utf-8");
+  const readmePath = "README.md";
+  let readme = fs.readFileSync(readmePath, "utf-8");
 
-  const updated = readme.replace(
-    /<!-- PRS-START -->([\s\S]*?)<!-- PRS-END -->/,
-    block
-  );
+  // Replace block
+  if (readme.includes("<!-- PRS-START -->") && readme.includes("<!-- PRS-END -->")) {
+    readme = readme.replace(
+      /<!-- PRS-START -->([\s\S]*?)<!-- PRS-END -->/,
+      block
+    );
+  } else {
+    // Add the block if missing
+    readme += `\n\n${block}\n`;
+  }
 
-  fs.writeFileSync(filePath, updated);
+  fs.writeFileSync(readmePath, readme, "utf-8");
 })();
-
