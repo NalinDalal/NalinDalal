@@ -37,3 +37,25 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
+name: Fetch and Write Merged PRs
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  workflow_dispatch:
+
+jobs:
+  fetch-merged-prs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    - run: npm install node-fetch@3
+    - run: node scripts/fetch-merged-prs.mjs
+    - name: Push updated file
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update merged PRs markdown table"
