@@ -64,8 +64,12 @@ function formatLine(pr) {
   merged.sort((a, b) => b.date.localeCompare(a.date));
   open.sort((a, b) => b.date.localeCompare(a.date));
 
+  const summaryLine = `📊 Total Merged PRs: ${merged.length} | Open PRs: ${open.length}`;
+
   const block = [
     `<!-- PRS-START -->`,
+    ``,
+    `${summaryLine}`,
     ``,
     `## ✅ Merged PRs`,
     merged.length ? merged.map(e => e.line).join("\n\n") : "_No merged PRs yet._",
@@ -86,6 +90,6 @@ function formatLine(pr) {
   }
 
   fs.writeFileSync(readmePath, readme, "utf-8");
-  console.log("✅ README.md updated with latest PRs.");
+  console.log("✅ README.md updated with PR data.");
 })();
 
