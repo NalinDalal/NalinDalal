@@ -36,4 +36,4 @@ jobs:
           git config user.email "nalindalal@users.noreply.github.com"
           git add README.md
           git commit -m "🔄 auto-update open PRs [bot]" || echo "No changes"
-          git push https://x-access-token:${GH_PAT}@github.com/NalinDalal/NalinDalal.git HEAD:main
+          git push https://x-access-token:${{secrets.TOKEN_GITHUB}}@github.com/NalinDalal/NalinDalal.git HEAD:main
