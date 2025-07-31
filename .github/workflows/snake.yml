@@ -42,11 +42,11 @@ jobs:
       - name: Show build status
         run: git status
 
-      - name: Push new files to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: Update snake animations
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
+      - name: Commit and push to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp -r dist/* .
+          git add github-contribution-grid-snake.*
+          git commit -m "🐍 update: contribution snake animation"
+          git push
