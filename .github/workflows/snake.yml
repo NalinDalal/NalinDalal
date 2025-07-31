@@ -27,14 +27,12 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@v3
 
-      - name: Generate the snake files in './dist/'
+      - name: Generate the snake GIF in './dist/'
         uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
@@ -42,12 +40,12 @@ jobs:
       - name: Show build status
         run: git status
 
-      - name: Commit and push to main
+      - name: Commit and push GIF to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cp -r dist/* .
-          git add github-contribution-grid-snake.*
-          git commit -m "🐍 update: contribution snake animation"
+          cp dist/github-contribution-grid-snake.gif .
+          git add github-contribution-grid-snake.gif
+          git commit -m "🐍 update: contribution snake gif"
           git push
 
