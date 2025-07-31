@@ -1,0 +1,21 @@
+{
+  "name": "nalindalal",
+  "version": "1.0.0",
+  "description": "21, Engineer <br> I like to build stuff I love to solve tough problems",
+  "main": "update-readme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NalinDalal/NalinDalal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NalinDalal/NalinDalal/issues"
+  },
+  "homepage": "https://github.com/NalinDalal/NalinDalal#readme"
+}
