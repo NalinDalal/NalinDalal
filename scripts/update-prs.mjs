@@ -1,3 +1,4 @@
+import fs from "node:fs";
 const API_URL = "https://api.github.com/search/issues?q=is:pr+author:NalinDalal&per_page=100";
 
 (async () => {
