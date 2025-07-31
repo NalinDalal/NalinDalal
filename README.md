@@ -4,6 +4,8 @@ I like to build stuff
 I love to solve tough problems
 
 ![Snake animation](https://github.com/nalindalal/nalindalal/blob/output/github-contribution-grid-snake-dark.svg)
+![snake gif](./github-contribution-grid-snake.gif)
+
 
 <!-- PRS-START -->
 

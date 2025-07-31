@@ -50,3 +50,4 @@ jobs:
           git add github-contribution-grid-snake.*
           git commit -m "🐍 update: contribution snake animation"
           git push
+
