@@ -7,6 +7,8 @@ issue: changes are not reflected
 
 <!-- PRS-START -->
 
+📊 Total Merged PRs: 14 | Open PRs: 7
+
 ## ✅ Merged PRs
 - **[removed node modules, updated gitignore](https://github.com/samarth-na/deno/pull/1)**  
   _samarth-na/deno_ • `2025-07-30`  
