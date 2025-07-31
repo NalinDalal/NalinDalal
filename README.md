@@ -8,7 +8,7 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 17 | Open PRs: 6
+📊 Total Merged PRs: 17 | Open PRs: 5
 
 ## ✅ Merged PRs
 - **[removed node modules, updated gitignore](https://github.com/samarth-na/deno/pull/1)**  
@@ -85,10 +85,6 @@ I love to solve tough problems
 - **[Bounty: Use SVG's for common cursors (Custom cursor functionality) #630](https://github.com/CapSoftware/Cap/pull/722)**  
   _CapSoftware/Cap_ • `2025-07-04`  
   > Bounty: Use SVG's for common cursors (Custom cursor functionality) #630.
-
-- **[ShadCN Themes issue: 883](https://github.com/Mail-0/Zero/pull/1546)**  
-  _Mail-0/Zero_ • `2025-06-29`  
-  > ShadCN Themes issue: 883.
 
 - **[ci/cd pipeline](https://github.com/Mentro-Org/CodeLookout/pull/27)**  
   _Mentro-Org/CodeLookout_ • `2025-05-25`  
