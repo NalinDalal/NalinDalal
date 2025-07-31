@@ -50,7 +50,7 @@ const API_URL = "https://api.github.com/search/issues?q=is:pr+author:NalinDalal&
     `<!-- PRS-END -->`
   ].join("\n");
 
-  const filePath = "README.md";
+  const filePath = "../README.md";
   const readme = fs.readFileSync(filePath, "utf-8");
 
   const updated = readme.replace(
