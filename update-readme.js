@@ -4,7 +4,7 @@ const fs = require("fs");
 const https = require("https");
 
 const API_URL = "https://api.github.com/search/issues?q=is:pr+author:NalinDalal+is:open&per_page=100";
-const TOKEN = process.env.GH_PAT;
+const TOKEN = process.env.TOKEN_GITHUB;
 
 const options = {
   headers: {
