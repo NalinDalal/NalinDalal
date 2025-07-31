@@ -8,7 +8,7 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 17 | Open PRs: 7
+📊 Total Merged PRs: 17 | Open PRs: 6
 
 ## ✅ Merged PRs
 - **[removed node modules, updated gitignore](https://github.com/samarth-na/deno/pull/1)**  
@@ -97,9 +97,5 @@ I love to solve tough problems
 - **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
   _asyncapi/website_ • `2025-05-25`  
   > Improves internal code structure.
-
-- **[Docker compose file](https://github.com/100xdevs-cohort-3/week-27-docker-compose/pull/1)**  
-  _100xdevs-cohort-3/week-27-docker-compose_ • `2025-02-15`  
-  > Docker compose file.
 
 <!-- PRS-END -->
