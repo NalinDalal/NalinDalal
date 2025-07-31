@@ -3,6 +3,9 @@ name: Update PRs in README
 on:
   schedule:
     - cron: '0 0 * * *' # 5:30 AM IST = 00:00 UTC
+  push:
+    branches:
+      - main  # or whatever your default branch is
   workflow_dispatch:
 
 jobs:
