@@ -3,6 +3,8 @@
 I like to build stuff
 I love to solve tough problems
 
+![Snake animation](https://github.com/nalindalal/nalindalal/blob/output/github-contribution-grid-snake-dark.svg)
+
 <!-- PRS-START -->
 
 📊 Total Merged PRs: 17 | Open PRs: 7
