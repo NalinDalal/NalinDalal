@@ -8,9 +8,13 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 17 | Open PRs: 5
+📊 Total Merged PRs: 18 | Open PRs: 4
 
 ## ✅ Merged PRs
+- **[Bounty: Use SVG's for common cursors (Custom cursor functionality) #630](https://github.com/CapSoftware/Cap/pull/722)**  
+  _CapSoftware/Cap_ • `2025-08-04`  
+  > Bounty: Use SVG's for common cursors (Custom cursor functionality) #630.
+
 - **[removed node modules, updated gitignore](https://github.com/samarth-na/deno/pull/1)**  
   _samarth-na/deno_ • `2025-07-30`  
   > Removes deprecated or redundant code.
@@ -81,10 +85,6 @@ I love to solve tough problems
 - **[Solves Issue 7975](https://github.com/processing/p5.js-website/pull/919)**  
   _processing/p5.js-website_ • `2025-07-26`  
   > Solves Issue 7975.
-
-- **[Bounty: Use SVG's for common cursors (Custom cursor functionality) #630](https://github.com/CapSoftware/Cap/pull/722)**  
-  _CapSoftware/Cap_ • `2025-07-04`  
-  > Bounty: Use SVG's for common cursors (Custom cursor functionality) #630.
 
 - **[ci/cd pipeline](https://github.com/Mentro-Org/CodeLookout/pull/27)**  
   _Mentro-Org/CodeLookout_ • `2025-05-25`  
