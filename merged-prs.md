@@ -1,5 +1,6 @@
 | Org | Repo | PR | Context |
 |-----|------|----|---------|
+| processing | p5.js | [#8020](https://github.com/processing/p5.js/pull/8020) | Add shortcut methods for modifying base shaders and documentation |
 | samarth-na | deno | [#1](https://github.com/samarth-na/deno/pull/1) | removed node modules, updated gitignore |
 | processing | p5.js | [#7989](https://github.com/processing/p5.js/pull/7989) | Solves Issue 7975 |
 | processing | p5.js | [#7988](https://github.com/processing/p5.js/pull/7988) | Auto-close GitHub Action for linked issues |
