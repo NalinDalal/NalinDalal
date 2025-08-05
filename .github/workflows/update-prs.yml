@@ -26,6 +26,9 @@ jobs:
       - name: 🧠 Generate PR Markdown
         run: node scripts/update-prs.mjs
 
+      - name: Pull latest changes from origin/main
+        run: git pull origin main
+      
       - name: 🚀 Commit & Push changes
         run: |
           git config user.name "github-actions[bot]"
