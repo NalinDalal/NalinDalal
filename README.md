@@ -8,7 +8,7 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 18 | Open PRs: 4
+📊 Total Merged PRs: 18 | Open PRs: 3
 
 ## ✅ Merged PRs
 - **[Bounty: Use SVG's for common cursors (Custom cursor functionality) #630](https://github.com/CapSoftware/Cap/pull/722)**  
