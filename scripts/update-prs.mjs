@@ -1,7 +1,6 @@
 import fs from "node:fs/promises";
 import fetch from "node-fetch";
 
-// 🌱 Load local env (for local use)
 if (!process.env.GITHUB_TOKEN) {
   try {
     const dotenv = await import('dotenv');
@@ -11,7 +10,6 @@ if (!process.env.GITHUB_TOKEN) {
   }
 }
 
-// ✅ CONFIG
 const username = "NalinDalal";
 const GITHUB_API_URL = "https://api.github.com/graphql";
 const headers = {
@@ -30,11 +28,10 @@ function summarize(title) {
   return t.endsWith(".") ? t : `${t}.`;
 }
 
-function formatLine(pr) {
+function formatLine(pr, date) {
   const [owner, repo] = pr.repository.nameWithOwner.split("/");
   if (owner.toLowerCase() === username.toLowerCase()) return null;
 
-  const date = pr.mergedAt.split("T")[0];
   const title = pr.title.replace(/\|/g, "\\|");
   const summary = summarize(title);
 
@@ -50,7 +47,7 @@ function formatTableRow(pr) {
   return `| ${org} | ${repo} | [#${pr.number}](${pr.url}) | ${short} |`;
 }
 
-async function fetchMergedPRs(cursor = null, collected = []) {
+async function fetchPRs(cursor = null, collected = []) {
   const query = `
     query($login: String!, $cursor: String) {
       user(login: $login) {
@@ -59,6 +56,7 @@ async function fetchMergedPRs(cursor = null, collected = []) {
             title
             url
             number
+            state
             merged
             mergedAt
             createdAt
@@ -78,13 +76,7 @@ async function fetchMergedPRs(cursor = null, collected = []) {
   const res = await fetch(GITHUB_API_URL, {
     method: "POST",
     headers,
-    body: JSON.stringify({
-      query,
-      variables: {
-        login: username,
-        cursor,
-      },
-    }),
+    body: JSON.stringify({ query, variables: { login: username, cursor } }),
   });
 
   const json = await res.json();
@@ -95,24 +87,39 @@ async function fetchMergedPRs(cursor = null, collected = []) {
   }
 
   const prData = json.data.user.pullRequests;
-  const mergedPRs = prData.nodes.filter(pr => pr.merged);
-  collected.push(...mergedPRs);
+  collected.push(...prData.nodes);
 
   if (prData.pageInfo.hasNextPage && collected.length < 300) {
-    return fetchMergedPRs(prData.pageInfo.endCursor, collected);
+    return fetchPRs(prData.pageInfo.endCursor, collected);
   }
 
   return collected;
 }
 
 (async () => {
-  const mergedPRs = await fetchMergedPRs();
-  const merged = mergedPRs
-    .map(pr => ({ line: formatLine(pr), date: pr.mergedAt.split("T")[0], row: formatTableRow(pr) }))
-    .filter(e => e.line && e.row)
-    .sort((a, b) => b.date.localeCompare(a.date));
+  const allPRs = await fetchPRs();
 
-  const summaryLine = `📊 Total Merged PRs: ${merged.length}`;
+  const merged = [];
+  const open = [];
+
+  for (const pr of allPRs) {
+    const date = pr.merged ? pr.mergedAt : pr.createdAt;
+    const line = formatLine(pr, date);
+    const row = formatTableRow(pr);
+
+    if (!line || !row) continue;
+
+    const item = { line, row, date: date.split("T")[0] };
+
+    if (pr.merged) merged.push(item);
+    else if (pr.state === "OPEN") open.push(item);
+  }
+
+  merged.sort((a, b) => b.date.localeCompare(a.date));
+  open.sort((a, b) => b.date.localeCompare(a.date));
+
+  // 📝 README.md block
+  const summaryLine = `📊 Total Merged PRs: ${merged.length} | Open PRs: ${open.length}`;
   const block = [
     `<!-- PRS-START -->`,
     ``,
@@ -120,6 +127,9 @@ async function fetchMergedPRs(cursor = null, collected = []) {
     ``,
     `## ✅ Merged PRs`,
     merged.length ? merged.map(e => e.line).join("\n\n") : "_No merged PRs yet._",
+    ``,
+    `## 🟡 Open PRs`,
+    open.length ? open.map(e => e.line).join("\n\n") : "_No open PRs._",
     ``,
     `<!-- PRS-END -->`
   ].join("\n");
@@ -134,10 +144,20 @@ async function fetchMergedPRs(cursor = null, collected = []) {
   await fs.writeFile(readmePath, readme, "utf-8");
   console.log("✅ README.md updated.");
 
+  // 📄 merged-prs.md → now: all-prs.md
   const tableHeader = "| Org | Repo | PR | Context |\n|-----|------|----|---------|";
-  const tableRows = merged.map(e => e.row);
-  const tableContent = [tableHeader, ...tableRows].join("\n");
-  await fs.writeFile("merged-prs.md", tableContent, "utf-8");
-  console.log("✅ merged-prs.md written.");
+  const mergedRows = merged.map(e => e.row);
+  const openRows = open.map(e => e.row);
+  const tableContent = [
+    `## ✅ Merged PRs`,
+    tableHeader,
+    ...mergedRows,
+    ``,
+    `## 🟡 Open PRs`,
+    tableHeader,
+    ...openRows
+  ].join("\n");
+  await fs.writeFile("all-prs.md", tableContent, "utf-8");
+  console.log("✅ all-prs.md written.");
 })();
 
