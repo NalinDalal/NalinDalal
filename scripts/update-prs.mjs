@@ -1,5 +1,7 @@
 import fetch from "node-fetch";
 import fs from "node:fs/promises";
+import dotenv from "dotenv";
+dotenv.config();
 
 // ✅ CONFIG
 const username = "NalinDalal";

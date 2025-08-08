@@ -25,6 +25,8 @@ jobs:
 
       - name: 🧠 Generate PR Markdown
         run: node scripts/update-prs.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ pass token to script
 
       - name: Pull latest changes from origin/main
         run: git pull origin main
