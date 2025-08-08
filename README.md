@@ -8,7 +8,7 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 18 | Open PRs: 5
+📊 Total Merged PRs: 18 | Open PRs: 4
 
 ## ✅ Merged PRs
 - **[Bounty: Use SVG's for common cursors (Custom cursor functionality) #630](https://github.com/CapSoftware/Cap/pull/722)**  
@@ -81,10 +81,6 @@ I love to solve tough problems
 - **[Add shortcut methods for modifying base shaders and documentation](https://github.com/processing/p5.js/pull/8020)**  
   _processing/p5.js_ • `2025-08-05`  
   > Adds a new feature.
-
-- **[Solves Issue 7975](https://github.com/processing/p5.js/pull/7989)**  
-  _processing/p5.js_ • `2025-07-27`  
-  > Solves Issue 7975.
 
 - **[Solves Issue 7975](https://github.com/processing/p5.js-website/pull/919)**  
   _processing/p5.js-website_ • `2025-07-26`  
