@@ -1,18 +1,24 @@
-import fetch from "node-fetch";
 import fs from "node:fs/promises";
-import dotenv from "dotenv";
-dotenv.config();
+import fetch from "node-fetch";
+
+// 🌱 Load local env (for local use)
+if (!process.env.GITHUB_TOKEN) {
+  try {
+    const dotenv = await import('dotenv');
+    dotenv.config();
+  } catch (e) {
+    console.warn("⚠️ dotenv not available and GITHUB_TOKEN not set.");
+  }
+}
 
 // ✅ CONFIG
 const username = "NalinDalal";
+const GITHUB_API_URL = "https://api.github.com/graphql";
 const headers = {
-  "Accept": "application/vnd.github+json",
-  "Authorization": `Bearer ${process.env.GITHUB_TOKEN}`, // <-- Set this in workflow env!
+  "Content-Type": "application/json",
+  "Authorization": `Bearer ${process.env.GITHUB_TOKEN}`,
 };
 
-const SEARCH_API_URL = `https://api.github.com/search/issues?q=is:pr+author:${username}&per_page=100`;
-
-// Util: summarize title
 function summarize(title) {
   const t = title.trim();
   const lower = t.toLowerCase();
@@ -24,80 +30,89 @@ function summarize(title) {
   return t.endsWith(".") ? t : `${t}.`;
 }
 
-function formatLine(pr, mergedAt) {
-  const repoParts = pr.repository_url.split("/");
-  const owner = repoParts[repoParts.length - 2];
+function formatLine(pr) {
+  const [owner, repo] = pr.repository.nameWithOwner.split("/");
   if (owner.toLowerCase() === username.toLowerCase()) return null;
 
-  const repo = repoParts.slice(-2).join("/");
-  const date = (mergedAt || pr.created_at).split("T")[0];
+  const date = pr.mergedAt.split("T")[0];
   const title = pr.title.replace(/\|/g, "\\|");
   const summary = summarize(title);
 
-  return `- **[${title}](${pr.html_url})**  
-  _${repo}_ • \`${date}\`  
+  return `- **[${title}](${pr.url})**  
+  _${owner}/${repo}_ • \`${date}\`  
   > ${summary}`;
 }
 
 function formatTableRow(pr) {
-  const match = pr.repository_url.match(/repos\/([^\/]+)\/([^\/]+)/);
-  if (!match) return null;
-  const [ , org, repo ] = match;
+  const [org, repo] = pr.repository.nameWithOwner.split("/");
   const context = pr.title.split(":").pop().trim();
   const short = context.length > 80 ? context.slice(0, 77) + "..." : context;
-  return `| ${org} | ${repo} | [#${pr.number}](${pr.html_url}) | ${short} |`;
+  return `| ${org} | ${repo} | [#${pr.number}](${pr.url}) | ${short} |`;
 }
 
-// 🧠 Get merged_at field from individual PR
-async function getMergedAt(pr) {
-  const match = pr.repository_url.match(/repos\/([^\/]+)\/([^\/]+)/);
-  if (!match) return null;
+async function fetchMergedPRs(cursor = null, collected = []) {
+  const query = `
+    query($login: String!, $cursor: String) {
+      user(login: $login) {
+        pullRequests(first: 100, after: $cursor, orderBy: {field: UPDATED_AT, direction: DESC}) {
+          nodes {
+            title
+            url
+            number
+            merged
+            mergedAt
+            createdAt
+            repository {
+              nameWithOwner
+            }
+          }
+          pageInfo {
+            hasNextPage
+            endCursor
+          }
+        }
+      }
+    }
+  `;
 
-  const [ , owner, repo ] = match;
-  const url = `https://api.github.com/repos/${owner}/${repo}/pulls/${pr.number}`;
-  const res = await fetch(url, { headers });
-  if (!res.ok) return null;
+  const res = await fetch(GITHUB_API_URL, {
+    method: "POST",
+    headers,
+    body: JSON.stringify({
+      query,
+      variables: {
+        login: username,
+        cursor,
+      },
+    }),
+  });
 
-  const detailed = await res.json();
-  return detailed.merged_at;
-}
+  const json = await res.json();
 
-(async () => {
-  const res = await fetch(SEARCH_API_URL, { headers });
-  if (!res.ok) {
-    console.error("❌ Failed to fetch PRs:", await res.text());
+  if (!res.ok || json.errors) {
+    console.error("❌ Failed to fetch PRs:", JSON.stringify(json.errors || json, null, 2));
     process.exit(1);
   }
 
-  const data = await res.json();
-  const merged = [];
-  const open = [];
-  const tableRows = [];
+  const prData = json.data.user.pullRequests;
+  const mergedPRs = prData.nodes.filter(pr => pr.merged);
+  collected.push(...mergedPRs);
 
-  for (const pr of data.items) {
-    if (!pr.pull_request) continue;
-
-    const mergedAt = pr.state === "closed" ? await getMergedAt(pr) : null;
-    const line = formatLine(pr, mergedAt);
-    const row = formatTableRow(pr);
-
-    if (line && row) tableRows.push(row);
-
-    const date = (mergedAt || pr.created_at).split("T")[0];
-
-    if (mergedAt) {
-      merged.push({ line, date });
-    } else if (pr.state === "open") {
-      open.push({ line, date });
-    }
+  if (prData.pageInfo.hasNextPage && collected.length < 300) {
+    return fetchMergedPRs(prData.pageInfo.endCursor, collected);
   }
 
-  // Sort
-  merged.sort((a, b) => b.date.localeCompare(a.date));
-  open.sort((a, b) => b.date.localeCompare(a.date));
+  return collected;
+}
 
-  // Update README.md
-  const summaryLine = `📊 Total Merged PRs: ${merged.length} | Open PRs: ${open.length}`;
+(async () => {
+  const mergedPRs = await fetchMergedPRs();
+  const merged = mergedPRs
+    .map(pr => ({ line: formatLine(pr), date: pr.mergedAt.split("T")[0], row: formatTableRow(pr) }))
+    .filter(e => e.line && e.row)
+    .sort((a, b) => b.date.localeCompare(a.date));
+
+  const summaryLine = `📊 Total Merged PRs: ${merged.length}`;
   const block = [
     `<!-- PRS-START -->`,
     ``,
@@ -105,9 +120,6 @@ async function getMergedAt(pr) {
     ``,
     `## ✅ Merged PRs`,
     merged.length ? merged.map(e => e.line).join("\n\n") : "_No merged PRs yet._",
-    ``,
-    `## 🟡 Open PRs`,
-    open.length ? open.map(e => e.line).join("\n\n") : "_No open PRs._",
     ``,
     `<!-- PRS-END -->`
   ].join("\n");
@@ -122,8 +134,8 @@ async function getMergedAt(pr) {
   await fs.writeFile(readmePath, readme, "utf-8");
   console.log("✅ README.md updated.");
 
-  // Write merged-prs.md
   const tableHeader = "| Org | Repo | PR | Context |\n|-----|------|----|---------|";
+  const tableRows = merged.map(e => e.row);
   const tableContent = [tableHeader, ...tableRows].join("\n");
   await fs.writeFile("merged-prs.md", tableContent, "utf-8");
   console.log("✅ merged-prs.md written.");
