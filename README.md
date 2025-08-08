@@ -8,7 +8,7 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 18 | Open PRs: 4
+📊 Total Merged PRs: 15
 
 ## ✅ Merged PRs
 - **[Bounty: Use SVG's for common cursors (Custom cursor functionality) #630](https://github.com/CapSoftware/Cap/pull/722)**  
@@ -18,8 +18,6 @@ I love to solve tough problems
 - **[removed node modules, updated gitignore](https://github.com/samarth-na/deno/pull/1)**  
   _samarth-na/deno_ • `2025-07-30`  
   > Removes deprecated or redundant code.
-
-
 
 - **[solves docs issue 837 for p5.js 2.x](https://github.com/processing/p5.js-website/pull/879)**  
   _processing/p5.js-website_ • `2025-07-17`  
@@ -49,8 +47,6 @@ I love to solve tough problems
   _Nev-Labs/Website_ • `2024-09-30`  
   > Adds a new feature.
 
-
-
 - **[frontend connectivity](https://github.com/Trisha-tech/OnlineBookSales/pull/161)**  
   _Trisha-tech/OnlineBookSales_ • `2024-06-12`  
   > frontend connectivity.
@@ -59,39 +55,20 @@ I love to solve tough problems
   _subhadipbhowmik/30-Days-Of-CPP_ • `2024-06-09`  
   > Day 07 added.
 
-- **[added the docker file along with the documentation](https://github.com/heysubinoy/clippy/pull/33)**  
-  _heysubinoy/clippy_ • `2024-06-03`  
-  > Adds a new feature.
-
 - **[loader improved](https://github.com/VaibhavArora314/StyleShare/pull/89)**  
   _VaibhavArora314/StyleShare_ • `2024-06-03`  
   > loader improved.
+
+- **[added the docker file along with the documentation](https://github.com/heysubinoy/clippy/pull/33)**  
+  _heysubinoy/clippy_ • `2024-06-03`  
+  > Adds a new feature.
 
 - **[commands.md](https://github.com/samarth-na/nvim/pull/1)**  
   _samarth-na/nvim_ • `2024-05-25`  
   > commands.md.
 
-
-
 - **[c++ code](https://github.com/samarth-na/clang/pull/1)**  
   _samarth-na/clang_ • `2024-04-08`  
   > c++ code.
-
-## 🟡 Open PRs
-- **[Solves Issue 7975](https://github.com/processing/p5.js/pull/8025)**  
-  _processing/p5.js_ • `2025-08-08`  
-  > Solves Issue 7975.
-
-- **[Solves Issue 7975](https://github.com/processing/p5.js-website/pull/919)**  
-  _processing/p5.js-website_ • `2025-07-26`  
-  > Solves Issue 7975.
-
-- **[ci/cd pipeline](https://github.com/Mentro-Org/CodeLookout/pull/27)**  
-  _Mentro-Org/CodeLookout_ • `2025-05-25`  
-  > ci/cd pipeline.
-
-- **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
-  _asyncapi/website_ • `2025-05-25`  
-  > Improves internal code structure.
 
 <!-- PRS-END -->
