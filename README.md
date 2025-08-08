@@ -78,10 +78,6 @@ I love to solve tough problems
   > c++ code.
 
 ## 🟡 Open PRs
-- **[Add shortcut methods for modifying base shaders and documentation](https://github.com/processing/p5.js/pull/8020)**  
-  _processing/p5.js_ • `2025-08-05`  
-  > Adds a new feature.
-
 - **[Solves Issue 7975](https://github.com/processing/p5.js-website/pull/919)**  
   _processing/p5.js-website_ • `2025-07-26`  
   > Solves Issue 7975.
