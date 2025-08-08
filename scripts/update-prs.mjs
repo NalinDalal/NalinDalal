@@ -1,10 +1,16 @@
 import fetch from "node-fetch";
-import fs from "node:fs";
+import fs from "node:fs/promises";
 
+// ✅ CONFIG
 const username = "NalinDalal";
-const API_URL = `https://api.github.com/search/issues?q=is:pr+author:${username}&per_page=100`;
+const headers = {
+  "Accept": "application/vnd.github+json",
+  "Authorization": `Bearer ${process.env.GITHUB_TOKEN}`, // <-- Set this in workflow env!
+};
 
-// Util: PR summary based on title
+const SEARCH_API_URL = `https://api.github.com/search/issues?q=is:pr+author:${username}&per_page=100`;
+
+// Util: summarize title
 function summarize(title) {
   const t = title.trim();
   const lower = t.toLowerCase();
@@ -16,14 +22,13 @@ function summarize(title) {
   return t.endsWith(".") ? t : `${t}.`;
 }
 
-// Format for README block
-function formatLine(pr) {
+function formatLine(pr, mergedAt) {
   const repoParts = pr.repository_url.split("/");
   const owner = repoParts[repoParts.length - 2];
   if (owner.toLowerCase() === username.toLowerCase()) return null;
 
   const repo = repoParts.slice(-2).join("/");
-  const date = (pr.pull_request?.merged_at || pr.created_at).split("T")[0];
+  const date = (mergedAt || pr.created_at).split("T")[0];
   const title = pr.title.replace(/\|/g, "\\|");
   const summary = summarize(title);
 
@@ -32,7 +37,6 @@ function formatLine(pr) {
   > ${summary}`;
 }
 
-// Format for merged-prs.md table
 function formatTableRow(pr) {
   const match = pr.repository_url.match(/repos\/([^\/]+)\/([^\/]+)/);
   if (!match) return null;
@@ -42,11 +46,22 @@ function formatTableRow(pr) {
   return `| ${org} | ${repo} | [#${pr.number}](${pr.html_url}) | ${short} |`;
 }
 
-(async () => {
-  const res = await fetch(API_URL, {
-    headers: { "Accept": "application/vnd.github+json" }
-  });
+// 🧠 Get merged_at field from individual PR
+async function getMergedAt(pr) {
+  const match = pr.repository_url.match(/repos\/([^\/]+)\/([^\/]+)/);
+  if (!match) return null;
 
+  const [ , owner, repo ] = match;
+  const url = `https://api.github.com/repos/${owner}/${repo}/pulls/${pr.number}`;
+  const res = await fetch(url, { headers });
+  if (!res.ok) return null;
+
+  const detailed = await res.json();
+  return detailed.merged_at;
+}
+
+(async () => {
+  const res = await fetch(SEARCH_API_URL, { headers });
   if (!res.ok) {
     console.error("❌ Failed to fetch PRs:", await res.text());
     process.exit(1);
@@ -57,24 +72,29 @@ function formatTableRow(pr) {
   const open = [];
   const tableRows = [];
 
-  data.items.forEach(pr => {
-    const line = formatLine(pr);
-    const tableRow = formatTableRow(pr);
-    if (line && tableRow) tableRows.push(tableRow);
+  for (const pr of data.items) {
+    if (!pr.pull_request) continue;
 
-    const date = (pr.pull_request?.merged_at || pr.created_at).split("T")[0];
-    if (pr.state === "closed" && pr.pull_request?.merged_at) {
+    const mergedAt = pr.state === "closed" ? await getMergedAt(pr) : null;
+    const line = formatLine(pr, mergedAt);
+    const row = formatTableRow(pr);
+
+    if (line && row) tableRows.push(row);
+
+    const date = (mergedAt || pr.created_at).split("T")[0];
+
+    if (mergedAt) {
       merged.push({ line, date });
     } else if (pr.state === "open") {
       open.push({ line, date });
     }
-  });
+  }
 
-  // Sort both by date (descending)
+  // Sort
   merged.sort((a, b) => b.date.localeCompare(a.date));
   open.sort((a, b) => b.date.localeCompare(a.date));
 
-  // 🔄 Update README.md
+  // Update README.md
   const summaryLine = `📊 Total Merged PRs: ${merged.length} | Open PRs: ${open.length}`;
   const block = [
     `<!-- PRS-START -->`,
@@ -91,19 +111,19 @@ function formatTableRow(pr) {
   ].join("\n");
 
   const readmePath = "README.md";
-  let readme = fs.readFileSync(readmePath, "utf-8");
+  let readme = await fs.readFile(readmePath, "utf-8");
   if (readme.includes("<!-- PRS-START -->") && readme.includes("<!-- PRS-END -->")) {
     readme = readme.replace(/<!-- PRS-START -->([\s\S]*?)<!-- PRS-END -->/, block);
   } else {
     readme += `\n\n${block}\n`;
   }
-  fs.writeFileSync(readmePath, readme, "utf-8");
+  await fs.writeFile(readmePath, readme, "utf-8");
   console.log("✅ README.md updated.");
 
-  // 📄 Generate merged-prs.md
+  // Write merged-prs.md
   const tableHeader = "| Org | Repo | PR | Context |\n|-----|------|----|---------|";
   const tableContent = [tableHeader, ...tableRows].join("\n");
-  fs.writeFileSync("merged-prs.md", tableContent, "utf-8");
+  await fs.writeFile("merged-prs.md", tableContent, "utf-8");
   console.log("✅ merged-prs.md written.");
 })();
 
