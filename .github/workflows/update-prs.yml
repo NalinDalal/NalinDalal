@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 */6 * * *' # Every 6 hours
+    - cron: '*/3 * * * *' # Every 3 minutes
   workflow_dispatch:
 
 jobs:
