@@ -1,4 +1,4 @@
-name: 🔁 Auto Update PR Markdown
+name: Auto Update PR Markdown
 
 on:
   push:
@@ -12,18 +12,18 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: 📥 Checkout repo
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: 🛠️ Set up Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         run: npm install node-fetch@3 dotenv
 
-      - name: 🧠 Generate PR Markdown
+      - name: Generate PR Markdown
         run: node scripts/update-prs.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ pass token to script
@@ -31,13 +31,13 @@ jobs:
       - name: Pull latest changes from origin/main
         run: git pull origin main
       
-      - name: 🚀 Commit & Push changes
+      - name: Commit & Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
             git add README.md merged-prs.md
-            git commit -m "🔄 auto: update public PRs in README and merged-prs.md"
+            git commit -m "auto: update public PRs in README and merged-prs.md"
             git push
           else
             echo "No changes to commit."
