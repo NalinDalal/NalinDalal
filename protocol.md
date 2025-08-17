@@ -144,6 +144,6 @@ Special repos:
 | Repos setup               | Aug 3       | ✅      |
 | First outreach + PRs      | Aug 5       | ✅      |
 | CP rating 1600            | Sep 1       | ⬜      |
-| System design repo active | Aug 5       | ⬜      |
+| System design repo active | Aug 5       | ✅      |
 | \$3–5K Job offer locked   | Nov 1       | ⬜      |
 | Full-body fitness visible | Dec         | ⬜      |
