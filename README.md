@@ -72,9 +72,9 @@ I love to solve tough problems
   > c++ code.
 
 ## 🟡 Open PRs
-- **[test: add unit tests for getDirElementsRecursive](https://github.com/asyncapi/generator/pull/1677)**  
+- **[test: add unit tests for `getDirElementsRecursive`](https://github.com/asyncapi/generator/pull/1677)**  
   _asyncapi/generator_ • `2025-08-20T10:53:19Z`  
-  > test: add unit tests for getDirElementsRecursive.
+  > test: add unit tests for `getDirElementsRecursive`.
 
 - **[Solves Issue 7975](https://github.com/processing/p5.js/pull/8025)**  
   _processing/p5.js_ • `2025-08-08T07:15:55Z`  
