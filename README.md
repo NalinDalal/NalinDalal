@@ -7,7 +7,7 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 15 | Open PRs: 5
+📊 Total Merged PRs: 15 | Open PRs: 6
 
 ## ✅ Merged PRs
 - **[Bounty: Use SVG's for common cursors (Custom cursor functionality) #630](https://github.com/CapSoftware/Cap/pull/722)**  
@@ -71,6 +71,10 @@ I love to solve tough problems
   > c++ code.
 
 ## 🟡 Open PRs
+- **[fix: prevent TypeError when errorWithStack is undefined in to-auth-endpoints](https://github.com/better-auth/better-auth/pull/4152)**  
+  _better-auth/better-auth_ • `2025-08-22T10:03:18Z`  
+  > Fixes a bug or issue.
+
 - **[test: add unit tests for `getDirElementsRecursive`](https://github.com/asyncapi/generator/pull/1679)**  
   _asyncapi/generator_ • `2025-08-21T10:04:50Z`  
   > test: add unit tests for `getDirElementsRecursive`.
