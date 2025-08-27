@@ -7,9 +7,13 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 15 | Open PRs: 5
+📊 Total Merged PRs: 16 | Open PRs: 4
 
 ## ✅ Merged PRs
+- **[test: add unit tests for `getDirElementsRecursive`](https://github.com/asyncapi/generator/pull/1679)**  
+  _asyncapi/generator_ • `2025-08-27T14:06:07Z`  
+  > test: add unit tests for `getDirElementsRecursive`.
+
 - **[Bounty: Use SVG's for common cursors (Custom cursor functionality) #630](https://github.com/CapSoftware/Cap/pull/722)**  
   _CapSoftware/Cap_ • `2025-08-04T11:31:19Z`  
   > Bounty: Use SVG's for common cursors (Custom cursor functionality) #630.
@@ -71,10 +75,6 @@ I love to solve tough problems
   > c++ code.
 
 ## 🟡 Open PRs
-- **[test: add unit tests for `getDirElementsRecursive`](https://github.com/asyncapi/generator/pull/1679)**  
-  _asyncapi/generator_ • `2025-08-21T10:04:50Z`  
-  > test: add unit tests for `getDirElementsRecursive`.
-
 - **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8025)**  
   _processing/p5.js_ • `2025-08-08T07:15:55Z`  
   > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
