@@ -75,13 +75,13 @@ I love to solve tough problems
   _asyncapi/generator_ • `2025-08-21T10:04:50Z`  
   > test: add unit tests for `getDirElementsRecursive`.
 
-- **[Solves Issue 7975](https://github.com/processing/p5.js/pull/8025)**  
+- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8025)**  
   _processing/p5.js_ • `2025-08-08T07:15:55Z`  
-  > Solves Issue 7975.
+  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
 
-- **[Solves Issue 7975](https://github.com/processing/p5.js-website/pull/919)**  
+- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js-website/pull/919)**  
   _processing/p5.js-website_ • `2025-07-26T12:16:30Z`  
-  > Solves Issue 7975.
+  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
 
 - **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
   _asyncapi/website_ • `2025-05-25T11:50:09Z`  
