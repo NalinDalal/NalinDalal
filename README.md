@@ -7,7 +7,7 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 16 | Open PRs: 4
+📊 Total Merged PRs: 16 | Open PRs: 5
 
 ## ✅ Merged PRs
 - **[test: add unit tests for `getDirElementsRecursive`](https://github.com/asyncapi/generator/pull/1679)**  
@@ -75,6 +75,10 @@ I love to solve tough problems
   > c++ code.
 
 ## 🟡 Open PRs
+- **[docs: guide to explain the usage of ai tools](https://github.com/asyncapi/generator/pull/1703)**  
+  _asyncapi/generator_ • `2025-08-28T09:30:13Z`  
+  > docs: guide to explain the usage of ai tools.
+
 - **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8025)**  
   _processing/p5.js_ • `2025-08-08T07:15:55Z`  
   > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
