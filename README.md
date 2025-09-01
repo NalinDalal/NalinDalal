@@ -7,9 +7,13 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 16 | Open PRs: 5
+📊 Total Merged PRs: 17 | Open PRs: 4
 
 ## ✅ Merged PRs
+- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8025)**  
+  _processing/p5.js_ • `2025-09-01T20:39:33Z`  
+  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
+
 - **[test: add unit tests for `getDirElementsRecursive`](https://github.com/asyncapi/generator/pull/1679)**  
   _asyncapi/generator_ • `2025-08-27T14:06:07Z`  
   > test: add unit tests for `getDirElementsRecursive`.
@@ -78,10 +82,6 @@ I love to solve tough problems
 - **[docs: guide to explain the usage of ai tools](https://github.com/asyncapi/generator/pull/1703)**  
   _asyncapi/generator_ • `2025-08-28T09:30:13Z`  
   > docs: guide to explain the usage of ai tools.
-
-- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8025)**  
-  _processing/p5.js_ • `2025-08-08T07:15:55Z`  
-  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
 
 - **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js-website/pull/919)**  
   _processing/p5.js-website_ • `2025-07-26T12:16:30Z`  
