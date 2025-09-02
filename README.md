@@ -7,7 +7,7 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 17 | Open PRs: 4
+📊 Total Merged PRs: 17 | Open PRs: 5
 
 ## ✅ Merged PRs
 - **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8025)**  
@@ -79,6 +79,10 @@ I love to solve tough problems
   > c++ code.
 
 ## 🟡 Open PRs
+- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8064)**  
+  _processing/p5.js_ • `2025-09-02T16:29:53Z`  
+  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
+
 - **[docs: guide to explain the usage of ai tools](https://github.com/asyncapi/generator/pull/1703)**  
   _asyncapi/generator_ • `2025-08-28T09:30:13Z`  
   > docs: guide to explain the usage of ai tools.
