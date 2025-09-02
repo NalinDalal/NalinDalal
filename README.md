@@ -7,9 +7,13 @@ I love to solve tough problems
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 17 | Open PRs: 6
+📊 Total Merged PRs: 18 | Open PRs: 5
 
 ## ✅ Merged PRs
+- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8064)**  
+  _processing/p5.js_ • `2025-09-02T17:45:48Z`  
+  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
+
 - **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8025)**  
   _processing/p5.js_ • `2025-09-01T20:39:33Z`  
   > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
@@ -79,10 +83,6 @@ I love to solve tough problems
   > c++ code.
 
 ## 🟡 Open PRs
-- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8064)**  
-  _processing/p5.js_ • `2025-09-02T16:29:53Z`  
-  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
-
 - **[Auto Close issues](https://github.com/processing/p5.js-website/pull/952)**  
   _processing/p5.js-website_ • `2025-09-02T16:56:42Z`  
   > Auto Close issues.
