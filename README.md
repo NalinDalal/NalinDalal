@@ -79,13 +79,13 @@ I love to solve tough problems
   > c++ code.
 
 ## 🟡 Open PRs
-- **[Auto Close issues](https://github.com/processing/p5.js-website/pull/952)**  
-  _processing/p5.js-website_ • `2025-09-02T16:56:42Z`  
-  > Auto Close issues.
-
 - **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js/pull/8064)**  
   _processing/p5.js_ • `2025-09-02T16:29:53Z`  
   > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
+
+- **[Auto Close issues](https://github.com/processing/p5.js-website/pull/952)**  
+  _processing/p5.js-website_ • `2025-09-02T16:56:42Z`  
+  > Auto Close issues.
 
 - **[docs: guide to explain the usage of ai tools](https://github.com/asyncapi/generator/pull/1703)**  
   _asyncapi/generator_ • `2025-08-28T09:30:13Z`  
