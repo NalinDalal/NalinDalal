@@ -22,6 +22,7 @@
 - Study 1 System Design concept (sketch + notes as proof)
 - Pick a past project or recent OSS contribution.
 - Give a 2-min “interview pitch” → record → replay.
+- read about basics, like create a guide, see like you say js as skill explain what is hoisting, matlab chize achi se aani chahiye
 
 Interviewing.io/peer
 
