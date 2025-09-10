@@ -15,6 +15,7 @@
 - Codeforces/AtCoder/Leetcode virtual contests
 - ICPC simulations (alternate days)
 - Log every mistake → `revision.md` (proof = entries visible in log)
+- read books, algorithms, practice codefrces from [cses](https://cses.fi/problemset/)
 
 **Late Morning (10:30AM–1:00PM) — Interviews + Design**
 
