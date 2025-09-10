@@ -10,7 +10,7 @@ Practice and practice and practice. Use **Gym section** to skill up.
 
 ## Levels of Practice
 
-### 1. Beginner (Rating ~800–1200)
+### 1. Beginner (Rating ~800–1200) - Month 1-2
 
 Focus on implementing basic algorithms and understanding common topics:
 
@@ -20,7 +20,13 @@ Focus on implementing basic algorithms and understanding common topics:
 - Number Theory
 - Prefix Sum
 
-### 2. Intermediate (Rating ~1200–1600)
+* 2 easy (CSES/CF 800–1200) → warm-up
+* 1 medium (CF Div.2 A/B \~1200–1400) → grind
+* 3-4 problems less than 1 hr
+* Codeforces Div.3/Div.4 Contest live + Virtual Contest GYM
+* LeetCode
+
+### 2. Intermediate (Rating ~1200–1600) - Month 3-4
 
 Cover popular topics like:
 
@@ -32,7 +38,11 @@ Cover popular topics like:
 - Introductory Dynamic Programming
 - Graph Traversal (BFS, DFS)
 
-### 3. Advanced (Rating 1600+)
+* CSES Graphs (basic BFS/DFS, shortest paths)
+* CSES DP basics (Dice Combinations → Book Shop)
+* Codeforces Div.2 contests (A–C focus)
+
+### 3. Advanced (Rating 1600+) - Month 5-6
 
 Focus more on **upsolving and analyzing contest problems**. Learn advanced algorithms:
 
@@ -46,12 +56,10 @@ Focus more on **upsolving and analyzing contest problems**. Learn advanced algor
 
 ## Practice Guidelines
 
-1. Practice — if stuck, think **up to 30 mins** before moving on.
-2. Solve problems with **editorials**.
-3. Push yourself with problems **slightly above your level**.
-4. Solve an **optimal number** of problems (200–400) instead of 2000–4000.
-5. Don’t get stuck for long hours — learn and move forward.
-6. Solve problems that **feel hard** for you.
+1. Practice — if stuck, think **up to 30 mins** before moving on. move on to editorials, read algo, then try to solve yourself.
+2. Push yourself with problems **slightly above your level**.
+3. Solve an **optimal number** of problems (200–400) instead of 2000–4000.
+4. Solve problems that **feel hard** for you.
 
 ---
 
@@ -75,47 +83,9 @@ Focus more on **upsolving and analyzing contest problems**. Learn advanced algor
 2. Create your **ThemeCP at your level**:
    - Pick a random topic from the list.
    - Select 4 problems of increasing rating (e.g., 1700/1900/2100/2300).
-   - Tools: TLE bot (Discord).
 3. Begin solving in order of difficulty.
 4. If you get an **AK (4/4)** → increment level by 1.
    - Otherwise, decrement by 1.
    - Always **upsolve the easiest problem you didn’t solve**.
 5. Repeat from Step 2. Take a short break and continue.
    - Use the **ThemeCP tracker** to log progress.
-
----
-
-## International Competitions
-
-| Competition            | Registration Period | Qualifying Rounds           | Finals                  | Notes                                                      |
-| ---------------------- | ------------------- | --------------------------- | ----------------------- | ---------------------------------------------------------- |
-| **ICPC**               | Aug – Oct           | Regional Contests (Aug–Dec) | World Finals (May–July) | For university students. Regional contests vary by region. |
-| **Meta Hacker Cup**    | June – July         | July – Sept                 | Dec/Jan (Online)        | Open to all participants.                                  |
-| **Google Code Jam**    | Feb – Mar           | Mar – May                   | Aug                     | Open to all.                                               |
-| **CodeChef SnackDown** | June – Aug          | Aug – Oct                   | Nov/Dec                 | Global contest open to all.                                |
-| **TopCoder Open**      | Year-round          | Online/Regional             | Nov                     | On-site finals.                                            |
-| **Reply Challenge**    | Feb – Mar           | April                       | May                     | Annual challenge.                                          |
-| **Yandex.Algorithm**   | Mar – Apr           | Apr – Jul                   | Jul/Aug                 | Algorithmic contests.                                      |
-| **Codeforces Global**  | Year-round          | 6–8 Rounds                  | No Finals               | Prestigious rounds.                                        |
-| **AtCoder GC**         | Monthly/Bi-monthly  | Monthly                     | No Finals               | Highly competitive.                                        |
-
----
-
-## Detailed Monthly Calendar
-
-| Month   | Competitions                                                                            |
-| ------- | --------------------------------------------------------------------------------------- |
-| **Jan** | ICPC Regionals (selected regions), Meta Hacker Cup Finals, Codeforces Divisional Rounds |
-| **Feb** | ICPC Regionals (continued), Google Code Jam Reg, Reply Challenge Reg                    |
-| **Mar** | Google Code Jam Qualifier, Yandex.Algorithm Reg, ICPC Regional Finals (Asia West)       |
-| **Apr** | Reply Challenge, Yandex.Algorithm Qualifier, CF Divisional Rounds, AGC                  |
-| **May** | ICPC World Finals, Google Code Jam Online Rounds                                        |
-| **Jun** | SnackDown Reg, Meta Hacker Cup Reg, ICPC Regionals (next cycle)                         |
-| **Jul** | Meta Hacker Cup Qualifier, SnackDown Online Rounds, Yandex.Algorithm Finals             |
-| **Aug** | Google Code Jam Finals, CF Global Rounds                                                |
-| **Sep** | Meta Hacker Cup Online Rounds, CF Divisional Rounds, AGC                                |
-| **Oct** | ICPC Regionals, SnackDown Finals, Reply Challenge Qualifiers                            |
-| **Nov** | TopCoder Open Finals, CF Global Round, ICPC Regionals                                   |
-| **Dec** | Meta Hacker Cup Finals, ICPC Regionals, CodeChef Lunchtime, CF Divisional Rounds        |
-
----
