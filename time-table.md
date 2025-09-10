@@ -17,6 +17,7 @@
 - Log every mistake → `revision.md` (proof = entries visible in log)
 - 8-10 questions, diff types, use [tle](https://tle-eliminators.com/), [cses](https://cses.fi/problemset/)
 - try to prove problems
+- read books, algorithms, practice codefrces from [cses](https://cses.fi/problemset/)
 
 **Late Morning (10:30AM–1:00PM) — Interviews + Design**
 
