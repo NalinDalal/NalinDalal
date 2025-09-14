@@ -134,7 +134,7 @@ async function fetchPRs(cursor = null, collected = []) {
     `<!-- PRS-END -->`
   ].join("\n");
 
-  const readmePath = "README.md";
+  const readmePath = "prs.md";
   let readme = await fs.readFile(readmePath, "utf-8");
   if (readme.includes("<!-- PRS-START -->") && readme.includes("<!-- PRS-END -->")) {
     readme = readme.replace(/<!-- PRS-START -->([\s\S]*?)<!-- PRS-END -->/, block);
