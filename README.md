@@ -11,9 +11,9 @@ Man has to learn, reapply and come back stronger. The best solution is to just b
 
 What makes me different?
 I just want to solve problems that people actually care about and helps the human, and technology is providing me that way.
-My open source work isn’t just about shipping code; it’s about growing communities and empowering others to succeed.
 
-If you’re looking for someone who combines technical depth with vision, resilience, and heart, let’s talk. I’m here to build things that matter, with people who care.
+If you’re looking for someone to hire, let’s talk, surely I will learn a thing or two from you.
+I’m here to build things that matter, with people who care.
 
 ---
 
