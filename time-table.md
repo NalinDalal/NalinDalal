@@ -19,6 +19,7 @@
 - try to prove problems
 - read books, algorithms, practice codefrces from [cses](https://cses.fi/problemset/)
 - practice from [here](https://codeforcesladders.firebaseapp.com/?handle=nalindalal2004) also
+- atleast don't cheat; start from scratch
 
 **Late Morning (10:30AM–1:00PM) — Interviews + Design**
 
