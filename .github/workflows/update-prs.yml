@@ -36,7 +36,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
-            git add README.md merged-prs.md
+            git add README.md prs.md
             git commit -m "auto: update public PRs in README and merged-prs.md"
             git push
           else
