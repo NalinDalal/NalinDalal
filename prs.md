@@ -4,9 +4,13 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 19 | Open PRs: 4
+📊 Total Merged PRs: 20 | Open PRs: 3
 
 ## ✅ Merged PRs
+- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js-website/pull/919)**  
+  _processing/p5.js-website_ • `2025-09-15T21:01:31Z`  
+  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
+
 - **[Auto Close issues](https://github.com/processing/p5.js-website/pull/952)**  
   _processing/p5.js-website_ • `2025-09-09T09:04:45Z`  
   > Auto Close issues.
@@ -87,10 +91,6 @@ This page lists my merged and open PRs across various open-source projects. For 
 - **[Add fontWidth() and clarify textWidth vs fontWidth docs in attributes.js](https://github.com/processing/p5.js/pull/8088)**  
   _processing/p5.js_ • `2025-09-14T17:41:58Z`  
   > Adds a new feature.
-
-- **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js-website/pull/919)**  
-  _processing/p5.js-website_ • `2025-07-26T12:16:30Z`  
-  > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
 
 - **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
   _asyncapi/website_ • `2025-05-25T11:50:09Z`  
