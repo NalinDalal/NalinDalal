@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 19 | Open PRs: 3
+📊 Total Merged PRs: 19 | Open PRs: 4
 
 ## ✅ Merged PRs
 - **[Auto Close issues](https://github.com/processing/p5.js-website/pull/952)**  
@@ -84,6 +84,10 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
+- **[Add fontWidth() and clarify textWidth vs fontWidth docs in attributes.js](https://github.com/processing/p5.js/pull/8088)**  
+  _processing/p5.js_ • `2025-09-14T17:41:58Z`  
+  > Adds a new feature.
+
 - **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js-website/pull/919)**  
   _processing/p5.js-website_ • `2025-07-26T12:16:30Z`  
   > Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website).
