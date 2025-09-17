@@ -92,12 +92,12 @@ This page lists my merged and open PRs across various open-source projects. For 
   _processing/p5.js_ • `2025-09-14T17:41:58Z`  
   > Adds a new feature.
 
-- **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
-  _asyncapi/website_ • `2025-05-25T11:50:09Z`  
-  > Improves internal code structure.
-
 - **[ci/cd pipeline](https://github.com/Mentro-Org/CodeLookout/pull/27)**  
   _Mentro-Org/CodeLookout_ • `2025-05-25T18:38:05Z`  
   > ci/cd pipeline.
+
+- **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
+  _asyncapi/website_ • `2025-05-25T11:50:09Z`  
+  > Improves internal code structure.
 
 <!-- PRS-END -->
