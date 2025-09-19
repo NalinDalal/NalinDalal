@@ -88,7 +88,7 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
-- **[Add fontWidth() and clarify textWidth vs fontWidth docs in attributes.js](https://github.com/processing/p5.js/pull/8088)**  
+- **[Add fontWidth() and clarify textWidth vs fontWidth docs in textCore.js #7745](https://github.com/processing/p5.js/pull/8088)**  
   _processing/p5.js_ • `2025-09-14T17:41:58Z`  
   > Adds a new feature.
 
