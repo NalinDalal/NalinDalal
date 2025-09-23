@@ -92,13 +92,13 @@ This page lists my merged and open PRs across various open-source projects. For 
   _processing/p5.js-website_ • `2025-09-23T11:33:21Z`  
   > Fixes a bug or issue.
 
-- **[fix: prevent TypeError when errorWithStack is undefined in to-auth-en…](https://github.com/better-auth/better-auth/pull/4813)**  
-  _better-auth/better-auth_ • `2025-09-22T11:32:27Z`  
-  > Fixes a bug or issue.
-
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
   _processing/p5.js_ • `2025-09-22T17:11:29Z`  
   > Improve Accessibility Guidance for `describe()` Usage.
+
+- **[fix: prevent TypeError when errorWithStack is undefined in to-auth-en…](https://github.com/better-auth/better-auth/pull/4813)**  
+  _better-auth/better-auth_ • `2025-09-22T11:32:27Z`  
+  > Fixes a bug or issue.
 
 - **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
   _asyncapi/website_ • `2025-05-25T11:50:09Z`  
