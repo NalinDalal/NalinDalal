@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 20 | Open PRs: 4
+📊 Total Merged PRs: 20 | Open PRs: 5
 
 ## ✅ Merged PRs
 - **[Auto-link / Close Issues for 2.0 PRs (p5.js & p5.js-website)](https://github.com/processing/p5.js-website/pull/919)**  
@@ -88,6 +88,10 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
+- **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance](https://github.com/processing/p5.js-website/pull/974)**  
+  _processing/p5.js-website_ • `2025-09-23T11:33:21Z`  
+  > Fixes a bug or issue.
+
 - **[fix: prevent TypeError when errorWithStack is undefined in to-auth-en…](https://github.com/better-auth/better-auth/pull/4813)**  
   _better-auth/better-auth_ • `2025-09-22T11:32:27Z`  
   > Fixes a bug or issue.
