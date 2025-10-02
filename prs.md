@@ -4,9 +4,13 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 21 | Open PRs: 4
+📊 Total Merged PRs: 22 | Open PRs: 3
 
 ## ✅ Merged PRs
+- **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance on main](https://github.com/processing/p5.js-website/pull/983)**  
+  _processing/p5.js-website_ • `2025-10-02T14:57:10Z`  
+  > Fixes a bug or issue.
+
 - **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance](https://github.com/processing/p5.js-website/pull/974)**  
   _processing/p5.js-website_ • `2025-10-02T12:28:32Z`  
   > Fixes a bug or issue.
@@ -92,10 +96,6 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
-- **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance on main](https://github.com/processing/p5.js-website/pull/983)**  
-  _processing/p5.js-website_ • `2025-10-02T13:33:21Z`  
-  > Fixes a bug or issue.
-
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
   _processing/p5.js_ • `2025-09-22T17:11:29Z`  
   > Improve Accessibility Guidance for `describe()` Usage.
