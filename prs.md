@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 21 | Open PRs: 3
+📊 Total Merged PRs: 21 | Open PRs: 4
 
 ## ✅ Merged PRs
 - **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance](https://github.com/processing/p5.js-website/pull/974)**  
@@ -92,6 +92,10 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
+- **[Merge pull request #974 from NalinDalal/2.0](https://github.com/processing/p5.js-website/pull/983)**  
+  _processing/p5.js-website_ • `2025-10-02T13:33:21Z`  
+  > Merge pull request #974 from NalinDalal/2.0.
+
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
   _processing/p5.js_ • `2025-09-22T17:11:29Z`  
   > Improve Accessibility Guidance for `describe()` Usage.
