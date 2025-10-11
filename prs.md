@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 22 | Open PRs: 3
+📊 Total Merged PRs: 22 | Open PRs: 4
 
 ## ✅ Merged PRs
 - **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance on main](https://github.com/processing/p5.js-website/pull/983)**  
@@ -96,6 +96,10 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
+- **[Add methodNotAllowedCatcher Middleware and Example](https://github.com/expressjs/express/pull/6836)**  
+  _expressjs/express_ • `2025-10-11T09:33:20Z`  
+  > Adds a new feature.
+
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
   _processing/p5.js_ • `2025-09-22T17:11:29Z`  
   > Improve Accessibility Guidance for `describe()` Usage.
