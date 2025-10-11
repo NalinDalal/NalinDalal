@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 22 | Open PRs: 4
+📊 Total Merged PRs: 22 | Open PRs: 6
 
 ## ✅ Merged PRs
 - **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance on main](https://github.com/processing/p5.js-website/pull/983)**  
@@ -96,6 +96,14 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
+- **[Add GitHub Copilot profile as sample contribution](https://github.com/ossamamehmood/Hacktoberfest/pull/7063)**  
+  _ossamamehmood/Hacktoberfest_ • `2025-10-11T09:59:56Z`  
+  > Adds a new feature.
+
+- **[issue 8408 resolved](https://github.com/fineanmol/Hacktoberfest2025/pull/8439)**  
+  _fineanmol/Hacktoberfest2025_ • `2025-10-11T09:55:37Z`  
+  > issue 8408 resolved.
+
 - **[Add methodNotAllowedCatcher Middleware and Example](https://github.com/expressjs/express/pull/6836)**  
   _expressjs/express_ • `2025-10-11T09:33:20Z`  
   > Adds a new feature.
