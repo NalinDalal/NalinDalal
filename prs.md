@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 22 | Open PRs: 7
+📊 Total Merged PRs: 22 | Open PRs: 6
 
 ## ✅ Merged PRs
 - **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance on main](https://github.com/processing/p5.js-website/pull/983)**  
@@ -96,10 +96,6 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
-- **[# PR: Fix Insufficient Text-to-Background Contrast in Code Blocks (Issue #886) ](https://github.com/processing/p5.js-website/pull/998)**  
-  _processing/p5.js-website_ • `2025-10-12T17:02:21Z`  
-  > # PR: Fix Insufficient Text-to-Background Contrast in Code Blocks (Issue #886).
-
 - **[Add methodNotAllowedCatcher Middleware and Example](https://github.com/expressjs/express/pull/6836)**  
   _expressjs/express_ • `2025-10-11T09:33:20Z`  
   > Adds a new feature.
