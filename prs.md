@@ -4,9 +4,13 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 22 | Open PRs: 6
+📊 Total Merged PRs: 23 | Open PRs: 5
 
 ## ✅ Merged PRs
+- **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
+  _processing/p5.js_ • `2025-11-09T18:10:30Z`  
+  > Improve Accessibility Guidance for `describe()` Usage.
+
 - **[Fix `<ul>` and `<ol>` Direct Children for HTML Compliance on main](https://github.com/processing/p5.js-website/pull/983)**  
   _processing/p5.js-website_ • `2025-10-02T14:57:10Z`  
   > Fixes a bug or issue.
@@ -107,10 +111,6 @@ This page lists my merged and open PRs across various open-source projects. For 
 - **[issue 8408 resolved](https://github.com/fineanmol/Hacktoberfest2025/pull/8439)**  
   _fineanmol/Hacktoberfest2025_ • `2025-10-11T09:55:37Z`  
   > issue 8408 resolved.
-
-- **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
-  _processing/p5.js_ • `2025-09-22T17:11:29Z`  
-  > Improve Accessibility Guidance for `describe()` Usage.
 
 - **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
   _asyncapi/website_ • `2025-05-25T11:50:09Z`  
