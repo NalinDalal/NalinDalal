@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 23 | Open PRs: 5
+📊 Total Merged PRs: 23 | Open PRs: 4
 
 ## ✅ Merged PRs
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
@@ -100,10 +100,6 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
-- **[Typescript Migration #22:  `client/modules/Preview`](https://github.com/processing/p5.js-web-editor/pull/3749)**  
-  _processing/p5.js-web-editor_ • `2025-12-05T02:18:19Z`  
-  > Typescript Migration #22:  `client/modules/Preview`.
-
 - **[Add GitHub Copilot profile as sample contribution](https://github.com/ossamamehmood/Hacktoberfest/pull/7063)**  
   _ossamamehmood/Hacktoberfest_ • `2025-10-11T09:59:56Z`  
   > Adds a new feature.
