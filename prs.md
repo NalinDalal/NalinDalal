@@ -100,9 +100,9 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
-- **[client/modules/Preview: migrate to TypeScript, no-verify](https://github.com/processing/p5.js-web-editor/pull/3820)**  
+- **[`client/modules/Preview`: migrate to TypeScript, no-verify](https://github.com/processing/p5.js-web-editor/pull/3820)**  
   _processing/p5.js-web-editor_ • `2026-01-28T18:21:48Z`  
-  > client/modules/Preview: migrate to TypeScript, no-verify.
+  > `client/modules/Preview`: migrate to TypeScript, no-verify.
 
 - **[Add GitHub Copilot profile as sample contribution](https://github.com/ossamamehmood/Hacktoberfest/pull/7063)**  
   _ossamamehmood/Hacktoberfest_ • `2025-10-11T09:59:56Z`  
