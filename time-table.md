@@ -8,42 +8,40 @@
   - Strength (proof = logged sets/reps, muscle fatigue)
 
 - 10 min mobility + deep breathing (proof = deeper, slower breath by end)
-- Quick journal → write 1 clear focus for the day
+- Quick journal → write clear focus for the day
 
-**Morning (6:45AM–9:00AM) — CP + ICPC**
+**Early Morning(7:00AM–8:30AM) — DS & Practice**
 
-- Codeforces/AtCoder/Leetcode virtual contests
-- ICPC simulations (alternate days)
-- 8-10 questions, diff types, use [tle](https://tle-eliminators.com/), [cses](https://cses.fi/problemset/)
-- try to prove problems
-- read books, algorithms, practice codefrces from [cses](https://cses.fi/problemset/)
-- practice from [here](https://codeforcesladders.firebaseapp.com/?handle=nalindalal2004) also
-- atleast don't cheat; start from scratch
+- Review concepts from multiple books and articles
+- Practice from Codeforces, [CSES](https://cses.fi/problemset); Solve 2–3 DSA problems (medium/hard)
 
-**Late Morning (10:30AM–1:00PM) — Interviews + Design**
+**Late Morning 9:00AM–10:00AM — Mock Interviews & System Design**
+- Mock interview (DSA/system design)
+- Study 1 system design concept (sketch, notes)
+- Record/replay interview pitch; take set of question record yourself solving them; review them
 
-- Solve 2 Leetcode problems (1 medium + 1 hard)
-- Study 1 System Design concept (sketch + notes as proof)
-- Pick a past project or recent OSS contribution.
-- Give a 2-min “interview pitch” → record → replay.
-- read about basics, like create a guide, see like you say js as skill explain what is hoisting, matlab chize achi se aani chahiye
+**Late Morning 10:30AM–12:00PM — SQL Learning**
+- Rotate topics: joins, window functions, indexing, optimization
+- Practice: LeetCode SQL, Mode Analytics
 
-Interviewing.io/peer
+**Afternoon 12:30PM–1:30PM — Lunch & Recovery**
+- Food, walk, digestion
 
-**Afternoon (2:00PM–5:00PM) — OSS + Outreach**
+**Late Afternoon 2:00PM–5:00PM — Projects, Contributions & Outreach**
+- Work on projects (AI, backend, infra)
+- OSS contributions (PRs, issues)
+- Write summary, record Loom walkthrough
+- Job applications: research, tailor resume, apply, log progress
+- Outreach: 3 DMs + 3 cold mails
 
-- Work on PR (bug fix, feature, or doc)
-- Write summary + record Loom walkthrough
-- Send outreach: 3 DMs + 3 cold mails (proof = sent messages logged)
+**Early Evenings 6:00PM–7:30PM — Light Learning & New Material**
+- Read papers, review notes, log experiments
+- Explore new tech/topics(AI For now)
 
-**Evening (7:00PM–10:00PM) — Golang + Projects**
+**7:30PM–8:30PM — Health Anchor**
+- Light stretching, walk, mobility
+- Reflect: wins, mistakes, improvements
 
-- Go deep dive (topics: concurrency, web server, REST APIs)
-- Build features into Web2 clone (e.g., Trello, file server)
-- Push to GitHub + log daily progress
-
-**Night (10:00PM–10:30PM) — Recovery**
-
-- Light stretching or short walk (proof = logged routine or steps)
-- Journal: wins + mistakes of the day
-- Digital cutoff → sleep by 11PM
+**9:00PM — Digital Cutoff & Sleep**
+- Wind down, digital cutoff
+- Sleep by 10:00–10:30PM
