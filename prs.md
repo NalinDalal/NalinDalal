@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 23 | Open PRs: 5
+📊 Total Merged PRs: 23 | Open PRs: 4
 
 ## ✅ Merged PRs
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
@@ -111,10 +111,6 @@ This page lists my merged and open PRs across various open-source projects. For 
 - **[issue 8408 resolved](https://github.com/fineanmol/Hacktoberfest2025/pull/8439)**  
   _fineanmol/Hacktoberfest2025_ • `2025-10-11T09:55:37Z`  
   > issue 8408 resolved.
-
-- **[refactor: optimize directory traversal in check-edit-links script](https://github.com/asyncapi/website/pull/4126)**  
-  _asyncapi/website_ • `2025-05-25T11:50:09Z`  
-  > Improves internal code structure.
 
 - **[ci/cd pipeline](https://github.com/Mentro-Org/CodeLookout/pull/27)**  
   _Mentro-Org/CodeLookout_ • `2025-05-25T18:38:05Z`  
