@@ -15,14 +15,13 @@
 - Review concepts from multiple books and articles
 - Practice from Codeforces, [CSES](https://cses.fi/problemset); Solve 2–3 DSA problems (medium/hard)
 
-**Late Morning 9:00AM–10:00AM — Mock Interviews & System Design**
-- Mock interview (DSA/system design)
-- Study 1 system design concept (sketch, notes)
+**Late Morning 9:00AM–10:00AM — Mock Interviews**
+- Mock interview (DSA/Dev)
 - Record/replay interview pitch; take set of question record yourself solving them; review them
 
-**Late Morning 10:30AM–12:00PM — SQL Learning**
-- Rotate topics: joins, window functions, indexing, optimization
+**Late Morning 10:30AM–12:00PM — Practice**
 - Practice: LeetCode SQL, Mode Analytics
+- Practice: System Design Case Studies
 
 **Afternoon 12:30PM–1:30PM — Lunch & Recovery**
 - Food, walk, digestion
