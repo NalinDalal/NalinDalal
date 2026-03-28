@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 23 | Open PRs: 5
+📊 Total Merged PRs: 23 | Open PRs: 4
 
 ## ✅ Merged PRs
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
@@ -103,10 +103,6 @@ This page lists my merged and open PRs across various open-source projects. For 
 - **[backspace joins the previous lines](https://github.com/samarth-na/nvim/pull/9)**  
   _samarth-na/nvim_ • `2026-03-24T19:21:04Z`  
   > backspace joins the previous lines.
-
-- **[`client/modules/Preview`: migrate to TypeScript, no-verify](https://github.com/processing/p5.js-web-editor/pull/3879)**  
-  _processing/p5.js-web-editor_ • `2026-02-13T18:26:04Z`  
-  > `client/modules/Preview`: migrate to TypeScript, no-verify.
 
 - **[Add GitHub Copilot profile as sample contribution](https://github.com/ossamamehmood/Hacktoberfest/pull/7063)**  
   _ossamamehmood/Hacktoberfest_ • `2025-10-11T09:59:56Z`  
