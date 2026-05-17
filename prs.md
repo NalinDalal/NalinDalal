@@ -51,8 +51,8 @@ This page lists my merged and open PRs across various open-source projects. For 
   _processing/p5.js-website_ • `2025-07-17T23:18:13Z`  
   > solves docs issue 837 for p5.js 2.x.
 
-- **[made the login page, made it pixel-perfect](https://github.com/Nexacore-Org/ByteChain-Academy/pull/26)**  
-  _Nexacore-Org/ByteChain-Academy_ • `2025-03-23T17:30:27Z`  
+- **[made the login page, made it pixel-perfect](https://github.com/WeAcademy/ByteChain-Academy/pull/26)**  
+  _WeAcademy/ByteChain-Academy_ • `2025-03-23T17:30:27Z`  
   > made the login page, made it pixel-perfect.
 
 - **[Tried something for Solidity LSP](https://github.com/samarth-na/nvim/pull/4)**  
