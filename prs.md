@@ -4,9 +4,13 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 23 | Open PRs: 5
+📊 Total Merged PRs: 24 | Open PRs: 4
 
 ## ✅ Merged PRs
+- **[issue 8408 resolved](https://github.com/fineanmol/Hacktoberfest2025/pull/8439)**  
+  _fineanmol/Hacktoberfest2025_ • `2026-06-05T10:27:29Z`  
+  > issue 8408 resolved.
+
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
   _processing/p5.js_ • `2025-11-09T18:10:30Z`  
   > Improve Accessibility Guidance for `describe()` Usage.
@@ -111,10 +115,6 @@ This page lists my merged and open PRs across various open-source projects. For 
 - **[Add GitHub Copilot profile as sample contribution](https://github.com/ossamamehmood/Hacktoberfest/pull/7063)**  
   _ossamamehmood/Hacktoberfest_ • `2025-10-11T09:59:56Z`  
   > Adds a new feature.
-
-- **[issue 8408 resolved](https://github.com/fineanmol/Hacktoberfest2025/pull/8439)**  
-  _fineanmol/Hacktoberfest2025_ • `2025-10-11T09:55:37Z`  
-  > issue 8408 resolved.
 
 - **[ci/cd pipeline](https://github.com/Mentro-Org/CodeLookout/pull/27)**  
   _Mentro-Org/CodeLookout_ • `2025-05-25T18:38:05Z`  
