@@ -7,8 +7,8 @@ This page lists my merged and open PRs across various open-source projects. For 
 📊 Total Merged PRs: 24 | Open PRs: 4
 
 ## ✅ Merged PRs
-- **[issue 8408 resolved](https://github.com/fineanmol/Hacktoberfest2025/pull/8439)**  
-  _fineanmol/Hacktoberfest2025_ • `2026-06-05T10:27:29Z`  
+- **[issue 8408 resolved](https://github.com/fineanmol/Hacktoberfest2026/pull/8439)**  
+  _fineanmol/Hacktoberfest2026_ • `2026-06-05T10:27:29Z`  
   > issue 8408 resolved.
 
 - **[Improve Accessibility Guidance for `describe()` Usage](https://github.com/processing/p5.js/pull/8101)**  
