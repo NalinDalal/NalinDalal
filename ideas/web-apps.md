@@ -25,7 +25,6 @@
 - Ways to download them, like one to transcode, one to extract mp3, mp4, pdf from links
 - Now speaking of file, convert various format to various
 - once done with it, move to download yt videos from links, with option for timestamp -> ex: [ssyoutube.com](https://ssyoutube.com/)
-  Done
 
 ### 4. **Code Editor - Repl.it Clone** ✅ Done
 
@@ -118,14 +117,12 @@ Allow to download that pdf
 
 ### 21. **Browser from scratch with vim motions**
 
-### 22. **Codeforces**
-
-### 23. **Zapier**
+### 22. **Zapier**
 
 - Event Driven Architecture
 - Multiple servers, workers etc
 - Can pitch it to their own engineer for job
 
-### 24. **Develop System Whiteboard**
+### 23. **Develop System Whiteboard**
 
 - [github-ref](https://github.com/design-first/system-designer)
