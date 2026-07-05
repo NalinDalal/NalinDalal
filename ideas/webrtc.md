@@ -13,8 +13,7 @@
 - Technologies: WebRTC for real-time communication, Node.js, React, TypeScript, Canvas API.
 - Description: Develop a collaborative whiteboard where multiple users can draw and annotate simultaneously. Add text and shape tools to make it more versatile.
 - **Reference:** [Excalidraw](https://excalidraw.com/)
-- **Make more finished:** [my-link](https://github.com/NalinDalal/week-22-excalidraw.git)
-- **finished:** [notion](https://plum-chamomile-116.notion.site/Collabydraw-Hand-drawn-look-feel-Collaborative-Secure-1cb6d6552d9b802597c1cb575db2a9da), [github](https://github.com/coderomm/CollabyDraw/tree/main), [live](https://collabydraw.xyz/)
+- **finished:** [my-link](https://github.com/NalinDalal/week-22-excalidraw.git)
 
 ### 3. **Peer-to-Peer File Sharing App**
 
