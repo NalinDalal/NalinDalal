@@ -15,6 +15,7 @@
 
 - Eviction policies (LRU/LFU), TTLs, memory management, persistence tradeoffs.
 - This teaches performance and real-world scaling.
+- **Redis Clone** — Simple in-memory DB with commands, pub/sub, persistence.
 
 ### 4. **Build your own Message Queue / Broker**
 
@@ -27,9 +28,7 @@
 - This ties everything together and separates seniors from juniors.
 
 - Build your own operating system
-- Build your database
 - Build your virtual machine
-- Build your web server
 - Build your own game engine
 - Build your compiler
 - Build your own programming language
@@ -102,3 +101,20 @@
 
 - **Stack:** CPP
 - **Why:** Learn internals, gui, basic game development
+
+
+- **Your own programming language** (Tiny Lisp or stack-based)
+- **HTTP Proxy with Logging** — Log, cache, replay requests, add latency.
+
+
+### 2. **Games with Systems Thinking**
+
+- **Tower Defense Game** — With editable logic or level editor.
+- **Physics Sandbox** — Collisions, gravity, particles — use Matter.js or Rapier (Rust).
+- **Multiplayer Chess / Go / Sokoban** — Implement server logic too.
+- **Roguelike Engine** — Procedural generation, tilemaps, turn-based logic.
+
+> You learn rendering, game logic, networking, and polish. Later you can plug in AI players, narration, or level generation.
+
+
+

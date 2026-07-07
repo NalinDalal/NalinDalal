@@ -86,3 +86,10 @@
 - S3 multi-part uploads
 - High focus on reliability/resiliency
 - [demo code, actually good](https://github.com/surya-moorthy/riverside-clone)
+
+
+
+
+- **WebRTC P2P File Share or Screen Share** — Like Snapdrop or tiny Google Meet.
+- **Live Collaborative Editor** — CRDT or OT-based, even for simple markdown.
+

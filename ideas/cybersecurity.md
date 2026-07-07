@@ -6,5 +6,3 @@
 - Ransomware detection and recovery.
 - Software vulnerability investigation
 
----
-

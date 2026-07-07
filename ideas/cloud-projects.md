@@ -30,5 +30,3 @@
 
 ### 15. **EcoScape:** Environmental Data Monitoring
 
----
-

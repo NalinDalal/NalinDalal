@@ -38,5 +38,4 @@
 - [system design](https://x.com/ashwinntwt/status/1976696954974323172?t=iFmE6kG9BSDf1fmLQj5LaA&s=08), [architecture](https://x.com/abhayytwt/status/1986465436238786837)
 - Well write b2b from scratch
 
----
 

@@ -18,5 +18,3 @@
 - **Cursor for calendar**
   Anything let me chat with my calendar, book meetings, and integrate with my email correctly.
 
----
-
