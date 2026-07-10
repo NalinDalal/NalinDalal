@@ -4,6 +4,14 @@ A progression from basic to advanced, with the right tool for each job.
 
 ---
 
+## Recommended Reading
+
+- **[The Art of Unix Programming](http://www.catb.org/~esr/writings/taoup/html/)** — Eric S. Raymond.
+  The definitive book on Unix philosophy, design principles, and the culture behind systems programming.
+  Covers modularity, textuality, transparency, configuration, interfaces, and more.
+
+---
+
 ## Tier 1: Beginner
 
 Single-file tools, stdio, basic string processing. No networking, no persistence.
@@ -11,7 +19,7 @@ Good for learning **any** language — C, Rust, Go, Python.
 
 ### CLI Tools
 
-- **wc** — Count lines, words, chars (C, Rust, Go)
+- **wc** — Count lines, words, chars ([C++](https://github.com/NalinDalal/wc-tool-cpp), [Go](https://github.com/NalinDalal/wc-tool-go))
 - **cut** — Extract columns from text (C, Rust, Go)
 - **sort** — Sort lines (C, Rust, Go)
 - **grep** — Regex search (C, Rust)
