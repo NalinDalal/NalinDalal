@@ -20,7 +20,7 @@ Good for learning **any** language — C, Rust, Go, Python.
 ### CLI Tools
 
 - **wc** — Count lines, words, chars ([C++](https://github.com/NalinDalal/wc-tool-cpp), [Go](https://github.com/NalinDalal/wc-tool-go))
-- **cut** — Extract columns from text (C, Rust, Go)
+- **cut** — Extract columns from text ([C++](https://github.com/NalinDalal/cut-cpp), Rust, Go)
 - **sort** — Sort lines (C, Rust, Go)
 - **grep** — Regex search (C, Rust)
 - **uniq** — Deduplicate adjacent lines (C, Rust, Go)
