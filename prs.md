@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 25 | Open PRs: 5
+📊 Total Merged PRs: 25 | Open PRs: 6
 
 ## ✅ Merged PRs
 - **[Fix framebuffer texture size clamping using wrong pixel density](https://github.com/processing/p5.js/pull/8964)**  
@@ -108,6 +108,10 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
+- **[Fixes #9000](https://github.com/processing/p5.js/pull/9014)**  
+  _processing/p5.js_ • `2026-07-24T12:55:15Z`  
+  > Fixes a bug or issue.
+
 - **[feat: hindi translation for environment](https://github.com/processing/p5.js-website/pull/1529)**  
   _processing/p5.js-website_ • `2026-07-23T12:41:40Z`  
   > feat: hindi translation for environment.
