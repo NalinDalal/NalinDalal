@@ -4,7 +4,7 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 25 | Open PRs: 7
+📊 Total Merged PRs: 25 | Open PRs: 6
 
 ## ✅ Merged PRs
 - **[Fix framebuffer texture size clamping using wrong pixel density](https://github.com/processing/p5.js/pull/8964)**  
@@ -108,10 +108,6 @@ This page lists my merged and open PRs across various open-source projects. For 
   > c++ code.
 
 ## 🟡 Open PRs
-- **[fix:markdown rendering](https://github.com/anomalyco/opencode/pull/38834)**  
-  _anomalyco/opencode_ • `2026-07-25T10:01:54Z`  
-  > Fixes a bug or issue.
-
 - **[Fixes #9000](https://github.com/processing/p5.js/pull/9014)**  
   _processing/p5.js_ • `2026-07-24T12:55:15Z`  
   > Fixes a bug or issue.
