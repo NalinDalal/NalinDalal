@@ -33,6 +33,7 @@
 - **Code:** [github](https://github.com/NalinDalal/repl.it-clone)
 
 ### 5. **LeetCode** ✅ Done
+- **Code:** [github](github.com/NalinDalal/AlgoHaven)
 
 ### 6. **Anonymous Community App for College Students** ✅ Done
 
@@ -128,3 +129,18 @@ Allow to download that pdf
 - [github-ref](https://github.com/design-first/system-designer)
 
 ### 24. UI Library: Hard Code it
+
+---------
+
+10 projects that make u a goated backend dev:
+
+1. Notification system
+2. Video processing queue
+3. Search autocomplete
+4. Real-time leaderboard 
+5. Payment retry engine
+6. Email delivery service
+7. Analytics event pipeline
+8. Collaborative text editor
+9. Distributed job runner
+10. Social media feed
