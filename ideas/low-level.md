@@ -15,12 +15,12 @@ A progression from basic to advanced, with the right tool for each job.
 ## Tier 1: Beginner
 
 Single-file tools, stdio, basic string processing. No networking, no persistence.
-Good for learning **any** language — C, Rust, Go, Python.
+Good for learning **any** language — C++, Rust, Go, Python.
 
 ### CLI Tools
 
-- **wc** — Count lines, words, chars ([C++](https://github.com/NalinDalal/wc-tool-cpp), [Go](https://github.com/NalinDalal/wc-tool-go))
-- **cut** — Extract columns from text ([C++](https://github.com/NalinDalal/cut-cpp), Rust, Go)
+- **wc** — Count lines, words, chars ([C++](github.com/NalinDalal/wc-tool-cpp), [Go](github.com/NalinDalal/wc-tool-go))
+- **cut** — Extract columns from text ([C++](github.com/NalinDalal/cut-cpp), [Rust](github.com/NalinDalal/cut-rust), [Go](github.com/NalinDalal/cut-go))
 - **sort** — Sort lines (C, Rust, Go)
 - **grep** — Regex search (C, Rust)
 - **uniq** — Deduplicate adjacent lines (C, Rust, Go)
@@ -277,7 +277,7 @@ Specialized domains: graphics, crypto, emulation, ML, blockchain.
 
 ## In Progress / Specific
 
-- **message framing layer in Cpp** (currently resolving few errors)
+- **message framing layer in Cpp**
   - Never copies payload data
   - Handles fragmentation (one recv != one message)
   - Upper layers get std::string_view (or gsl::span) straight into the original buffer
@@ -288,6 +288,3 @@ Specialized domains: graphics, crypto, emulation, ML, blockchain.
 
 - **Build trading system** — [example](https://github.com/Erio-Harrison/rust-trade) (Rust, C++, Go)
 
----
-
-*Inspired by [Coding Challenges](https://codingchallenges.fyi/challenges/intro)*
