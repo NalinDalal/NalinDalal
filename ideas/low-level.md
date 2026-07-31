@@ -12,7 +12,7 @@ Single-file tools, stdio, basic string processing. No networking, no persistence
 
 - **wc** — Count lines, words, chars ([C++](github.com/NalinDalal/wc-tool-cpp), [Go](github.com/NalinDalal/wc-tool-go))
 - **cut** — Extract columns from text ([C++](github.com/NalinDalal/cut-cpp), [Rust](github.com/NalinDalal/cut-rust), [Go](github.com/NalinDalal/cut-go))
-- **sort** — Sort lines (C++, Rust, Go)
+- **sort** — Sort lines ([C++](github.com/NalinDalal/sort-cpp), Rust, Go)
 - **grep** — Regex search (C++, Rust)
 - **uniq** — Deduplicate adjacent lines (C++, Rust, Go)
 - **diff** — Line-by-line comparison (C++, Rust)
