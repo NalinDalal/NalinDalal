@@ -4,9 +4,17 @@ This page lists my merged and open PRs across various open-source projects. For 
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 25 | Open PRs: 6
+📊 Total Merged PRs: 27 | Open PRs: 6
 
 ## ✅ Merged PRs
+- **[fix(be): repair type errors blocking build and deploy](https://github.com/nerdev-co/modheshwari/pull/8)**  
+  _nerdev-co/modheshwari_ • `2026-08-06T08:31:17Z`  
+  > Fixes a bug or issue.
+
+- **[ci: fix broken postgres backup, make prune deploy-safe, harden deploy rollback](https://github.com/nerdev-co/modheshwari/pull/7)**  
+  _nerdev-co/modheshwari_ • `2026-08-06T07:35:00Z`  
+  > ci: fix broken postgres backup, make prune deploy-safe, harden deploy rollback.
+
 - **[Fix framebuffer texture size clamping using wrong pixel density](https://github.com/processing/p5.js/pull/8964)**  
   _processing/p5.js_ • `2026-07-06T16:18:36Z`  
   > Fixes a bug or issue.
