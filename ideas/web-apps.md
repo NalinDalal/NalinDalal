@@ -56,11 +56,7 @@
 - **Project:** Track and analyze meme coin prices in real-time with tools for liquidity pools and market makers.
 - **Reference:** [Dex Screener](https://dexscreener.com/)
 
-### 10. **E-commerce Website**
-
-- **Project:** Develop a full-fledged e-commerce platform with features like product listings, shopping cart, user authentication, and payment gateway integration.
-
-### 11. **Resume Builder**
+### 10. **Resume Builder**
 
 - **Project:** Develop a tool to help users create professional resumes with customizable templates and ui to select from.
 - **Example:** [link](https://free-next-resume-maker.vercel.app/builder), [github](https://github.com/HOTHEAD01TH/free-resume-maker/tree/main)
@@ -72,63 +68,63 @@ Then a pdf viewer
 
 Allow to download that pdf
 
-### 12. **Quiz Application**
+### 11. **Quiz Application**
 
 - **Project:** Create a Real Time Quiz Application
 - **Reference:** [Mentimeter](https://www.mentimeter.com/)
 - **Video:** [link](https://www.youtube.com/live/3s08AlYB7yg?si=ikbb3kZlBbO8q3jr)
 
-### 13. **Vercel Clone**
+### 12. **Vercel Clone**
 
 - **Project:** Create a site to deploy site
 - **Reference:** [Vercel](https://vercel.com/)
 - **Video:** [link](https://youtu.be/c8_tafixiAs?si=cWBmWT2HiqjOiZ0b)
 
-### 14. **Build brainly app (Second brain) like website to take notes**
+### 13. **Build brainly app (Second brain) like website to take notes**
 
-### 15. **AI-Powered Code Review Tool**
+### 14. **AI-Powered Code Review Tool**
 
 - A self-hosted tool that plugs into GitHub, GitLab, and Bitbucket.
 - It supports custom lint rules, learns your team's coding style over time, and keeps everything private — perfect for startups, big companies, and OSS folks alike.
 
-### 16. **AI-Based Browser Extension**
+### 15. **AI-Based Browser Extension**
 
 - Imagine a tool that can read official documents like passports or licenses and auto-fill web forms while respecting privacy and compliance.
 
-### 17. **Social Media Post Summariser** ✅ Done
+### 16. **Social Media Post Summariser** ✅ Done
 
 - A browser extension that gives users quick TL;DRs of posts and profiles to help them scroll more mindfully.
 - [github](https://github.com/NalinDalal/social-media-tldr)
 
-### 18. **Service to put up text behind images**
+### 17. **Service to put up text behind images**
 
 - A webapp to edit images with text just like canva
 - [github](https://github.com/RexanWONG/text-behind-image), [site](https://textbehindimage.rexanwong.xyz/)
 
-### 19. **Mathematical diagrams**
+### 18. **Mathematical diagrams**
 
 - Create a site where you can modern commutative diagram editor for the web.
 - [github](https://github.com/varkor/quiver), [site](https://q.uiver.app/)
 
-### 20. **Notion like Form Creator (tally)**
+### 19. **Notion like Form Creator (tally)**
 
 - Integrations
 - Notion like UIs
 - GPT to summarise
 
-### 21. **Browser from scratch with vim motions**
+### 20. **Browser from scratch with vim motions**
 
-### 22. **Zapier**
+### 21. **Zapier**
 
 - Event Driven Architecture
 - Multiple servers, workers etc
 - Can pitch it to their own engineer for job
 
-### 23. **Develop System Whiteboard**
+### 22. **Develop System Whiteboard**
 
 - [github-ref](https://github.com/design-first/system-designer)
 
-### 24. UI Library: Hard Code it
+### 23. UI Library: Hard Code it
 
 ---------
 
