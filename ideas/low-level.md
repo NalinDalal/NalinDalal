@@ -186,6 +186,7 @@ Full language implementation, OS concepts, browsers, distributed systems.
 - **microkernel** — Minimal IPC-based kernel (C, Rust)
 - **window manager** — X11/Wayland compositor (C, C++, Rust)
 - **GUI toolkit** — Widgets, event loop, rendering (C, Rust, C++)
+- **Video course:** [Write your own Operating System](https://www.youtube.com/playlist?list=PLHh55M_Kq4OApWScZyPl5HhgsTJS9MZ6M)
 
 ### Browsers & Runtimes — C++, Rust
 
