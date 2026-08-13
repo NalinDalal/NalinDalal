@@ -13,7 +13,7 @@
 - Technologies: WebRTC for real-time communication, Node.js, React, TypeScript, Canvas API.
 - Description: Develop a collaborative whiteboard where multiple users can draw and annotate simultaneously. Add text and shape tools to make it more versatile.
 - **Reference:** [Excalidraw](https://excalidraw.com/)
-- **finished:** [my-link](https://github.com/NalinDalal/week-22-excalidraw.git)
+- **finished:** [codraw](https://github.com/NalinDalal/week-22-excalidraw.git)
 
 ### 3. **Peer-to-Peer File Sharing App**
 
@@ -86,10 +86,4 @@
 - S3 multi-part uploads
 - High focus on reliability/resiliency
 - [demo code, actually good](https://github.com/surya-moorthy/riverside-clone)
-
-
-
-
-- **WebRTC P2P File Share or Screen Share** — Like Snapdrop or tiny Google Meet.
-- **Live Collaborative Editor** — CRDT or OT-based, even for simple markdown.
 

@@ -5,7 +5,7 @@
 - Build in ts and then rust
 - Work on internals and read about - HTTP, WS, Redis, Kafka, Postgres
 
-### 2. **Option Trading Platform** ✅ Done - super 30 2.0 1st project
+### 2. **Option Trading Platform**  - super 30 2.0 1st project
 
 - [example-code](https://github.com/Rudra-Sankha-Sinhamahapatra/options-trading), [example-code-2](https://github.com/ashishmohapatra240/100xness-v2), [code3](https://github.com/abhayymishraa/exness/tree/main)
 
@@ -13,16 +13,15 @@
 
 - **Reference:** [Probo](https://probo.in/)
   So basically people can bet for things like x will win or lose
-  Create web3 based wallet option too here
-
-### 4. **Code Editor similar to repl.it**
-
-### 5. **Opinion Betting (probo.ai clone)** - super 30 1.0
-
-- People say or keep their opinion
+  - People say or keep their opinion
 - Ex: india will play with pakistan
 - Bet some credentials, then option to cash out, both web2 and smart contract
 - probo.ai is closed now
+
+
+### 4. **Code Editor similar to repl.it**
+
+
 
 ### 6. **Own N8N** - super 30 2.0 2nd proj
 

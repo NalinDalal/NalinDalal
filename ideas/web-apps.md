@@ -18,7 +18,7 @@
   - Else status code: push email to engineer with status code.
 - **Link:** [rust](https://github.com/NalinDalal/uptime-rs), [ts](https://github.com/NalinDalal/uptime-ts)
 
-### 3. **File Converter** ✅ Done
+### 3. **File Converter** 
 
 - **Project:** Develop a tool to convert between different file formats, such as PDF to Word or image to PDF.
 - Link to mp4, like a youtube clipper and downloader as a side service -> done
@@ -39,6 +39,7 @@
 
 - **Project:** Create an app similar to Blind for anonymous discussions among verified college students.
 - **Code:** [github](https://github.com/NalinDalal/blind-app)
+- **[Link](blind.nerdev.in)**
 
 ### 7. **Gambling Website**
 
@@ -55,18 +56,6 @@
 
 - **Project:** Track and analyze meme coin prices in real-time with tools for liquidity pools and market makers.
 - **Reference:** [Dex Screener](https://dexscreener.com/)
-
-### 10. **Resume Builder**
-
-- **Project:** Develop a tool to help users create professional resumes with customizable templates and ui to select from.
-- **Example:** [link](https://free-next-resume-maker.vercel.app/builder), [github](https://github.com/HOTHEAD01TH/free-resume-maker/tree/main)
-
-Build a normal latex resume builder
-User auth, then it has a file manager, keep it statebased for now
-Latex editor
-Then a pdf viewer
-
-Allow to download that pdf
 
 ### 11. **Quiz Application**
 
@@ -91,10 +80,6 @@ Allow to download that pdf
 
 - Imagine a tool that can read official documents like passports or licenses and auto-fill web forms while respecting privacy and compliance.
 
-### 16. **Social Media Post Summariser** ✅ Done
-
-- A browser extension that gives users quick TL;DRs of posts and profiles to help them scroll more mindfully.
-- [github](https://github.com/NalinDalal/social-media-tldr)
 
 ### 17. **Service to put up text behind images**
 
