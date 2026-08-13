@@ -57,12 +57,6 @@
 - Technologies: WebRTC, React, Node.js, TypeScript, IPFS or a similar decentralized storage solution. Websockets
 - Description: Build a social media platform where users can communicate directly through peer-to-peer messaging and video calls, with data stored in a decentralized manner. User is able to create and join group similar to discord and whatsapp.
 
-### 9. **Live Stream Platform like YouTube/Twitch**
-
-- 2 endpoints: `/stream`, `/watch`
-- `/stream` is authenticated, user starts the stream
-- `/watch` user anonymously join the streams without id
-
 ### 10. **Tinder clone with video chat, matchmaking, and user profiles but on top of coding profiles**
 
 ### 11. **2D-Metaverse App - A virtual platform for maybe office, like can move around a virtual space, do stuff**
