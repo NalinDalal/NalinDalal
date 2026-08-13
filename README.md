@@ -1,29 +1,38 @@
 # Hi, I'm Nalin 👋
 
-## My Story: Building With Heart
+Full-stack engineer focused on shipping production-grade systems and contributing to open source.
+Genuinely trying to do everything for the love of the game.
 
-I’m Nalin, a 21 year old engineer, builder, and relentless optimist. My story isn’t just about code, it’s about curiosity and a deep desire to make a difference.
-
-As a kid, I always wondered how things actually work. That same curiosity drives me today: I want to know how things work, and more importantly, how I can make them work better for people.
-
-I’ve faced my share of setbacks which are failed projects, bugs at 3am, ideas that didn’t land. But every challenge has been a lesson in resilience. I don’t give up.
-Man has to learn, reapply and come back stronger. The best solution is to just build the stuff.
-
-What makes me different?
-I just want to solve problems that people actually care about and helps the human, and technology is providing me that way.
-
-If you’re looking for someone to hire, let’s talk, surely I will learn a thing or two from you.
-I’m here to build things that matter, with people who care.
+**Tech:** TypeScript · React/Next.js · Bun/Elysia · PostgreSQL · Redis · Kafka · Docker · Node.js · Python
 
 ---
 
-![snake gif](./github-contribution-grid-snake.gif)
+## 🏗️ Production Work
+
+- **[CoDraw](https://codraw.nerdev.in)** — Self-hostable real-time collaborative whiteboard. Turborepo monorepo with Next.js frontend, Bun HTTP API, and Bun WebSocket server. Diff-based real-time sync, room-based auth with bcrypt + httpOnly cookies, optimistic concurrency, and PM2 deployment on EC2 with Neon PostgreSQL. Source: [Nerdev-co/codraw](https://github.com/Nerdev-co/codraw). Case study: [nalin.nerdev.in/projects/codraw/](https://nalin.nerdev.in/projects/codraw/).
+- **[Modheshwari](https://modheshwari.nerdev.in)** — Deployed and operational full-stack community management platform. Wrote the deploy pipeline, hardened CI/CD rollback, fixed build-blocking type errors, and set up automated Postgres backups on a 9-container Docker stack (Next.js + Bun/Elysia + Kafka + Redis + Neon PostgreSQL) running on AWS EC2. Detailed case study: [nalin.nerdev.in/projects/modheshwari/](https://nalin.nerdev.in/projects/modheshwari/).
 
 ---
 
-## 🚀 My Open Source Work
+## 🌱 Open Source
 
-Want to see my technical impact? Check out my [Pull Requests & Contributions](./prs.md) for a detailed list of my merged and open PRs across open-source projects.
+- **[processing/p5.js](https://github.com/processing/p5.js)** — Framebuffer texture size fix, accessibility improvements for `describe()`
+- **[processing/p5.js-website](https://github.com/processing/p5.js-website)** — HTML compliance fixes, auto-close issues workflow for 2.0 PRs, Hindi translation for environment
+- **[processing/p5.js-web-editor](https://github.com/processing/p5.js-web-editor)** — TypeScript migration in progress
+- **[asyncapi/generator](https://github.com/asyncapi/generator)** — Added unit tests for `getDirElementsRecursive`
+
+Full list: [`prs.md`](./prs.md)
+
+---
+
+## 🔨 Currently Exploring
+
+- **AI Interview Coach** — Concept in progress: upload a resume → AI generates interview questions → live webcam session with eye-contact and filler-word tracking via MediaPipe + Whisper → scored report. Build log in [`projects/ai-interview-coach/buildlog.md`](./projects/ai-interview-coach/buildlog.md).
+---
+
+## 📜 Certifications
+
+Cisco networking badges embedded in [`cisco.md`](./cisco.md).
 
 ---
 
