@@ -194,6 +194,7 @@ Full language implementation, OS concepts, browsers, distributed systems.
 - **browser engine** — HTML/CSS/JS parser and renderer
 - **runtime** — Like Node.js (event loop, JS engine binding)
 - **scripting sandbox** — Isolated code execution
+- **Browser from scratch with vim motions** - Minimal HTTP client, HTML parser + DOM, Basic renderer, Keyboard-driven navigation, Vim motion/state machine, History + search, Search autocomplete, Tabs/session management, Cache/cookies, Optional JavaScript engine integration
 
 ### Networking — C++, Rust
 

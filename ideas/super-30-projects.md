@@ -27,11 +27,6 @@
 
 - [email ai agent with n8n](https://medium.com/@amitXD/how-to-build-an-ai-email-agent-with-n8n-step-by-step-no-code-guide-9ea9d7393ef5), [w8w](https://github.com/Rudra-Sankha-Sinhamahapatra/w8w), [guide](https://medium.com/@vedaterenoglu/n8n-langchain-and-rag-a-developers-guide-cf8f16dcfbfb)
 
-### 7. **Chat app built in rust, with encryption similar to whatsapp**
-
-- Well not super30, but might get you landed somewhere:
-- [encryption](https://signal.org/docs/)
-
 ### 8. **Build your own lovable** - super30 2.0 3rd project
 
 - [system design](https://x.com/ashwinntwt/status/1976696954974323172?t=iFmE6kG9BSDf1fmLQj5LaA&s=08), [architecture](https://x.com/abhayytwt/status/1986465436238786837)
