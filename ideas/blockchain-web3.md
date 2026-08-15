@@ -216,6 +216,12 @@
 
 ### 6. Video based pump fun is an interesting idea but the market might have died now
 
+### 7. Wallet activity notifier — ping Telegram when a wallet moves funds
+
+### 8. Memecoin sniper UI — on top of an existing public API
+
+### 9. Airdrop eligibility dashboard — track airdrop eligibility for 3 protocols
+
 ## Half-Baked Ideas
 
 - A stablecoin-powered remittance app where the user can say "send $100 to mom" and the AI automatically handles the transaction.

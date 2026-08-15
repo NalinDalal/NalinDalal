@@ -1,25 +1,28 @@
 # Hi, I'm Nalin 👋
 
-Full-stack engineer focused on shipping production-grade systems and contributing to open source.
-Genuinely trying to do everything for the love of the game.
+I build things that actually get used, and I contribute to open source because it's fun.
+Doing it all for the love of the game.
 
-**Tech:** TypeScript · React/Next.js · Bun/Elysia · PostgreSQL · Redis · Kafka · Docker · Node.js · Python
+**Tech:** Node.js · React · TypeScript · PostgreSQL · WebSockets · Docker · Redis · Kafka · Rust
+
+**Find me:** [Twitter/X](https://x.com/nalin82929) · [Site](https://nalin.nerdev.in) · [LinkedIn](https://lnkd.in/nalin-dalal) · [Email](mailto:nalin@nerdev.in)
 
 ---
 
 ## 🏗️ Production Work
 
-- **[CoDraw](https://codraw.nerdev.in)** — Self-hostable real-time collaborative whiteboard. Turborepo monorepo with Next.js frontend, Bun HTTP API, and Bun WebSocket server. Diff-based real-time sync, room-based auth with bcrypt + httpOnly cookies, optimistic concurrency, and PM2 deployment on EC2 with Neon PostgreSQL. Source: [Nerdev-co/codraw](https://github.com/Nerdev-co/codraw). Case study: [nalin.nerdev.in/projects/codraw/](https://nalin.nerdev.in/projects/codraw/).
-- **[Modheshwari](https://modheshwari.nerdev.in)** — Deployed and operational full-stack community management platform. Wrote the deploy pipeline, hardened CI/CD rollback, fixed build-blocking type errors, and set up automated Postgres backups on a 9-container Docker stack (Next.js + Bun/Elysia + Kafka + Redis + Neon PostgreSQL) running on AWS EC2. Detailed case study: [nalin.nerdev.in/projects/modheshwari/](https://nalin.nerdev.in/projects/modheshwari/).
+- **[CoDraw](https://codraw.nerdev.in)** — Self-hostable real-time collaborative whiteboard. Diff-based real-time sync, room-based auth, optimistic concurrency. Built it because I wanted an Excalidraw I could self-host. Turborepo monorepo: Next.js + Bun HTTP/WebSocket. [Read more](https://nalin.nerdev.in/projects/codraw/).
+- **[Modheshwari](https://modheshwari.nerdev.in)** — Full-stack community management platform. I own the deploy pipeline here: hardened CI/CD rollback, fixed build-blocking type errors, automated Postgres backups on a 9-container Docker stack (Next.js + Bun/Elysia + Kafka + Redis + Neon) on EC2. [Read more](https://nalin.nerdev.in/projects/modheshwari/).
 
 ---
 
 ## 🌱 Open Source
 
+27 merged PRs across processing/p5.js, p5.js-website, and asyncapi/generator.
+
 - **[processing/p5.js](https://github.com/processing/p5.js)** — Framebuffer texture size fix, accessibility improvements for `describe()`
-- **[processing/p5.js-website](https://github.com/processing/p5.js-website)** — HTML compliance fixes, auto-close issues workflow for 2.0 PRs, Hindi translation for environment
-- **[processing/p5.js-web-editor](https://github.com/processing/p5.js-web-editor)** — TypeScript migration in progress
-- **[asyncapi/generator](https://github.com/asyncapi/generator)** — Added unit tests for `getDirElementsRecursive`
+- **[processing/p5.js-website](https://github.com/processing/p5.js-website)** — HTML compliance fixes, auto-close issues workflow, Hindi translation
+- **[asyncapi/generator](https://github.com/asyncapi/generator)** — Unit tests for `getDirElementsRecursive`
 
 Full list: [`prs.md`](./prs.md)
 
@@ -27,12 +30,11 @@ Full list: [`prs.md`](./prs.md)
 
 ## 🔨 Currently Exploring
 
-- **AI Interview Coach** — Concept in progress: upload a resume → AI generates interview questions → live webcam session with eye-contact and filler-word tracking via MediaPipe + Whisper → scored report. Build log in [`projects/ai-interview-coach/buildlog.md`](./projects/ai-interview-coach/buildlog.md).
+- **ML + product-level builds** — Studying machine learning, but learning by building real stuff, not just notebooks. Current: **PlayMesh**, a real-time multiplayer games platform over WebRTC data channels (game state sync, leaderboards, on-call play). Golang backend, TypeScript frontend. Source: [nerdev-co/playmesh](https://github.com/nerdev-co/playmesh).
+
 ---
 
-## 📜 Certifications
-
-Cisco networking badges embedded in [`cisco.md`](./cisco.md).
+![contribution snake](github-contribution-grid-snake.gif)
 
 ---
 
