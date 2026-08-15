@@ -1,8 +1,5 @@
 # Hi, I'm Nalin 👋
 
-<img src="./assets/header-light.svg#gh-light-mode-only" alt="Nalin header">
-<img src="./assets/header-dark.svg#gh-dark-mode-only" alt="Nalin header">
-
 I build things that actually get used, and I contribute to open source because it's fun.
 Doing it all for the love of the game.
 
@@ -37,7 +34,8 @@ Full list: [`prs.md`](./prs.md)
 
 ---
 
-![contribution snake](github-contribution-grid-snake.gif)
+<img src="./github-contribution-grid-snake.gif#gh-light-mode-only" alt="contribution snake">
+<img src="./github-contribution-grid-snake-dark.gif#gh-dark-mode-only" alt="contribution snake">
 
 ---
 

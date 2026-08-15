@@ -34,18 +34,20 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake-dark.gif?color_snake=orange&color_dots=#1e2b3f,#20304a,#263a5c,#2e4a77,#3c65a5&bg_color=0d1117
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
 
       - name: Show build status
         run: git status
 
-      - name: Commit and push GIF to main
+      - name: Commit and push GIFs to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp dist/github-contribution-grid-snake.gif .
-          git add github-contribution-grid-snake.gif
+          cp dist/github-contribution-grid-snake-dark.gif .
+          git add github-contribution-grid-snake.gif github-contribution-grid-snake-dark.gif
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
