@@ -3,7 +3,7 @@
 I build things that actually get used, and I contribute to open source because it's fun.
 Doing it all for the love of the game.
 
-**Tech:** Node.js · React · TypeScript · PostgreSQL · WebSockets · Docker · Redis · Kafka · Rust
+**Tech:** Node.js · React · TypeScript · PostgreSQL · WebSockets · Docker · Redis · Kafka · AWS · Rust
 
 **Find me:** [Twitter/X](https://x.com/nalin82929) · [Site](https://nalin.nerdev.in) · [LinkedIn](https://lnkd.in/nalin-dalal) · [Email](mailto:nalin@nerdev.in)
 
