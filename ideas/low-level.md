@@ -284,6 +284,145 @@ HLS segmenter (Go)
 
 ---
 
+## Cool Projects to Show Off
+
+- **Live DDoS attack map**
+- **Unalone** — Let people hangout at locations, real time chat rooms, add friends, earn trust points, language, report user. React Native, Lambda
+- **Network wide ad blocker** — Raspberry Pi, AdGuard Home, OpenVPN/WireGuard (use a spare laptop)
+- **Shazam clone**
+- **Minimal, lightweight, fast navigational app** — React Native, OpenStreetMap, Tegola, OSRM
+- **Card game or race game, train via reinforcement learning**
+
+**Low-level stuff**
+
+- Create your own transpiler
+- ChatGPT inside calculator
+- Convert a spare device into a server
+
+- **Algorithm visualiser sandbox (canvas)**
+- **Terminal based game**
+- **Terminal based portfolio that runs on vim motions**
+- **Domain specific language** — Write music like code, which runs music like animations
+- **Shader language compiler** — {your HLSL to compiler = GLSL}. Graphics companies will notice you
+
+---
+
+## Build Your Own — Reference Repos (C/C++)
+
+Topics: Compilers and Interpreters · Database and Storage · Operating Systems and Kernels · Tools, Shells and Editors · Virtual Machines and Emulators · Games and Graphics · Networking and Systems · Math, Graphics and Fun Stuff · Security and Low-Level · Miscellaneous and Unique Stuff
+
+### 1. Compilers and Interpreters
+
+- [Crafting Interpreters](https://craftinginterpreters.com/index.html) (language in Java/C)
+- [Write Your Own Lisp in C](https://buildyourownlisp.com/contents)
+- [C4 (self-hosting C compiler)](https://github.com/rswier/c4)
+- [Tiny-C compiler](https://github.com/LuaDist/tcc)
+- [Kaleidoscope (LLVM tutorial in C++)](https://llvm.org/docs/tutorial/)
+- [Complete C99 parser in pure Python](https://github.com/eliben/pycparser/tree/main) (a C parser in Python but felt useful)
+- [Build a JSON parser in C](https://github.com/DaveGamble/cJSON)
+- [Lua (scripting language in C)](https://github.com/lua/lua)
+
+### 2. Database and Storage
+
+- [Build Your Own Database (SQLite clone)](https://cstack.github.io/db_tutorial/)
+- [Redis (originally in C)](https://github.com/redis/redis)
+- [TinyDB clone in C](https://github.com/nalgeon/sqlean)
+- [B+ tree in C](http://amittai.com/prose/bplustree.html)
+- [LSM tree in C](https://github.com/xx01cyx/LSM-Tree)
+- [Log-structured DB in C](https://github.com/rxi/lite)
+- [Simple in-memory KV store](https://github.com/pmwkaa/sophia)
+- [File system in C](https://github.com/SrLozano/Simple-File-System)
+
+### 3. Operating Systems and Kernels
+
+- [OS from Scratch](https://github.com/cfenollosa/os-tutorial)
+- [xv6 (MIT teaching Unix OS)](https://github.com/mit-pdos/xv6-public)
+- [Sortix OS](https://sortix.org)
+- [ToaruOS](https://github.com/klange/toaruos)
+- [Multiple OS systems project](https://github.com/topics/operating-systems-project)
+- [Write your own kernel in C](https://youtube.com/watch?v=FkrpUaGThTQ)
+- [Linux from scratch (study Linux source)](https://github.com/torvalds/linux/tree/master)
+
+### 4. Tools, Shells and Editors
+
+- [Kilo text editor (1K lines)](https://github.com/antirez/kilo)
+- [Build your own Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
+- [Simple C Debugger](https://github.com/taocp/c-debugger)
+- [Nano text editor (classic, in C)](https://git.savannah.gnu.org/git/nano.git/)
+- [Vim (study-worthy)](https://github.com/vim/vim)
+- [sed in C](https://github.com/aureliojargas/sedsed)
+
+### 5. Virtual Machines and Emulators
+
+- [LC3 VM](https://jmeiners.com/lc3-vm/)
+- [TinyVM](https://github.com/jakogut/tinyvm)
+- [Write a CHIP-8 emulator in C](https://github.com/Klairm/chip8)
+- [NES Emulator](https://github.com/ObaraEmmanuel/NES)
+- [GameBoy Emulator](https://github.com/deltabeard/gameboy-c)
+- [Write a WASM runtime in C](https://github.com/wasmerio/wasmer)
+- [QEMU (huge VM project in C)](https://github.com/qemu/qemu)
+- [x86 emulator](https://github.com/topics/x86-emulator)
+
+### 6. Games and Graphics
+
+- [Snake in C (ncurses)](https://github.com/Siddhantjan/Snake-game-in-C)
+- [Tetris in C](https://github.com/svedev0/tetris-c)
+- [DOOM Fire Algorithm](https://github.com/lpg2709/DoomFireC)
+- [Pong in C](https://github.com/flightcrank/pong)
+- [Flappy Bird in C](https://gist.github.com/fcharlie/b88b9011a0553fd65d5279e3cb25bc28)
+- [Pac-Man in C](https://github.com/rsmahmud/paC-man)
+- [Mario in C](https://github.com/MitchellSternke/SuperMarioBros-C)
+- [Chess engine in C](https://github.com/topics/chess-engine)
+- [Raycasting engine (Wolfenstein 3D style)](https://github.com/tsoding/koil)
+- [Mandelbrot fractal generator in C](https://github.com/vkazanov/fractals-in-c)
+
+### 7. Networking and Systems
+
+- [Build your own HTTP server in C](https://github.com/jeremycw/httpserver.h)
+- [Simple TCP/IP stack](https://github.com/saminiir/level-ip/tree/master)
+- [Write a DNS resolver in C](https://github.com/riveraj/dns-resolver)
+- [Socket programming in C](https://youtube.com/watch?v=LtXEMwSG5-8)
+- [HTTP client in C](https://github.com/esnet/iperf)
+- [Simple FTP client/server](https://gist.github.com/XBachirX/865b00ba7a7c86b4fc2d7443b2c4f238)
+- [SSH implementation](https://github.com/topics/ssh-client)
+
+### 8. Math, Graphics & Fun Stuff
+
+- [Write your own linear algebra library in C/C++](https://github.com/sgorsten/linalg)
+- [FFT from scratch in C](https://github.com/jtfell/c-fft)
+- [Build a raytracer in C](https://github.com/ssloy/tinyraytracer)
+- [Build a path tracer in C](https://github.com/topics/pathtracer)
+- [Write a 3D software renderer in C](https://github.com/ssloy/tinyrenderer)
+- [Graphics engine using SDL](https://github.com/topics/graphics-engine)
+- [OpenGL from scratch in C](https://github.com/afiskon/c-opengl-text)
+- [Neural net from scratch in C](https://github.com/mounirouadi/Deep-Neural-Network-in-C)
+- [Genetic algorithms in C](https://github.com/ggjmI/genetic-C)
+- [Build a Perlin noise generator](https://gist.github.com/nowl/828013)
+
+### 9. Security & Low-Level
+
+- [Build a hash function in C](https://github.com/topics/hash-functions)
+- [AES in C](https://github.com/kokke/tiny-AES-c)
+- [SHA implementation](https://github.com/clibs/sha1)
+- [Write your own RSA in C](https://gist.github.com/AmruthPillai/42f4fef15bd2591aeddccae03b31ab25)
+- [Packet sniffer in C](https://github.com/topics/packet-sniffer)
+- [Write your own sandbox in C](https://github.com/topics/sandbox)
+- [Keylogger in C (educational only)](https://github.com/topics/keylogger)
+- [Rootkit in C (learning project)](https://h0mbre.github.io/Learn-C-By-Creating-A-Rootkit/)
+
+### 10. Misc and Unique Stuff
+
+- [Markdown parser in C](https://github.com/commonmark/cmark)
+- [CSV parser in C](https://github.com/semitrivial/csv_parser)
+- [HTTP parser in C](https://github.com/nodejs/http-parser)
+- [INI file parser in C](https://github.com/benhoyt/inih)
+- [MP3 decoder in C](https://github.com/topics/mp3-decoder)
+- [JPEG decoder in C](https://github.com/cefqrn/jpeg-decoder)
+- [PNG library in C](https://github.com/randy408/libspng)
+- [QR code generator in C](https://github.com/nayuki/QR-Code-generator)
+- [Write your own Git](https://wyag.thb.lt)
+
+---
 
 ## Recommended Reading
 
