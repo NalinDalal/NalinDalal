@@ -1,9 +1,7 @@
 # Hi, I'm Nalin 👋
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <img alt="Nalin header" src="./assets/header-light.svg">
-</picture>
+<img src="./assets/header-light.svg#gh-light-mode-only" alt="Nalin header">
+<img src="./assets/header-dark.svg#gh-dark-mode-only" alt="Nalin header">
 
 I build things that actually get used, and I contribute to open source because it's fun.
 Doing it all for the love of the game.
