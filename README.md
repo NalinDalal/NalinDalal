@@ -1,10 +1,8 @@
-# Hi, I'm Nalin 👋
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=2EA043&center=true&vCenter=true&width=600&lines=Full-stack+engineer;Shipping+production+systems;Open+to+remote+%26+freelance+work" alt="Typing SVG" />
 
 Full-stack engineer building production software and open source. I care about things that ship, stay up, and get used by real people.
 
-**Tech:** Node.js · React · TypeScript · PostgreSQL · WebSockets · Docker · Redis · Kafka · AWS · Rust · Bun · Next.js ·
-
-**Find me:** [Twitter/X](https://x.com/nalin82929) · [Site](https://nalin.nerdev.in) · [LinkedIn](https://lnkd.in/nalin-dalal) · [Email](mailto:nalin@nerdev.in)
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,bun,postgres,redis,kafka,docker,nodejs,python,rust,solidity" />
 
 ---
 
@@ -23,7 +21,16 @@ I work across the stack, from real-time infrastructure to community platforms. C
 
 ---
 
-## 🌱 Open Source
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=NalinDalal&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NalinDalal&layout=compact&theme=github_dark&hide_border=true&langs_count=8" width="48%" />
+</p>
+
+<img src="https://github-profile-trophy.vercel.app/?username=NalinDalal&theme=github_dark&no-frame=true&row=1&column=6" alt="Trophies" />
+
+---
+
+## Open Source
 
 27 merged PRs across core infrastructure and developer tools.
 
@@ -35,9 +42,12 @@ Full list: [`prs.md`](./prs.md)
 
 ---
 
-<img src="./github-contribution-grid-snake.gif#gh-light-mode-only" alt="contribution snake">
-<img src="./github-contribution-grid-snake-dark.gif#gh-dark-mode-only" alt="contribution snake">
+[![Portfolio](https://img.shields.io/badge/Portfolio-nalin.nerdev.in-2EA043?style=flat-square)](https://nalin.nerdev.in)
+[![X](https://img.shields.io/badge/X-@nalin82929-000000?style=flat-square&logo=x)](https://twitter.com/nalin82929)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/nalin-dalal-815617271)
+[![Resume](https://img.shields.io/badge/Resume-PDF-2EA043?style=flat-square&logo=googledocs)](./Resume.pdf)
 
----
-
-_[Resume](./Resume.pdf)_
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NalinDalal/NalinDalal/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/NalinDalal/NalinDalal/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</picture>
