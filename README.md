@@ -26,7 +26,7 @@ I work across the stack, from real-time infrastructure to community platforms. C
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NalinDalal&layout=compact&theme=github_dark&hide_border=true&langs_count=8" width="48%" />
 </p>
 
-<img src="https://github-profile-trophy.vercel.app/?username=NalinDalal&theme=github_dark&no-frame=true&row=1&column=6" alt="Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=NalinDalal&theme=dark_dimmed&no-frame=true&row=1&column=6" alt="Trophies" />
 
 ---
 
