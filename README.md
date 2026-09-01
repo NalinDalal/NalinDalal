@@ -6,7 +6,7 @@ Full-stack engineer building production software and open source. I care about t
 
 ---
 
-## Some of my Masterpiece
+## Production Work
 
 I work across the stack, from real-time infrastructure to community platforms. Currently focused on webrtc systems and ML.
 
