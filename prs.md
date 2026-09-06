@@ -4,7 +4,7 @@ Merged and open PRs across open-source projects.
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 27 | Open PRs: 6
+📊 Total Merged PRs: 27 | Open PRs: 7
 
 ## ✅ Merged PRs
 - **[fix(be): repair type errors blocking build and deploy](https://github.com/nerdev-co/modheshwari/pull/8)**  
@@ -116,6 +116,10 @@ Merged and open PRs across open-source projects.
   > c++ code.
 
 ## 🟡 Open PRs
+- **[fix(streamstore): reject non-finite timestamps in append record factories](https://github.com/s2-streamstore/s2-sdk-typescript/pull/349)**  
+  _s2-streamstore/s2-sdk-typescript_ • `2026-09-06T14:07:51Z`  
+  > Fixes a bug or issue.
+
 - **[Fixes #9000](https://github.com/processing/p5.js/pull/9014)**  
   _processing/p5.js_ • `2026-07-24T12:55:15Z`  
   > Fixes a bug or issue.
