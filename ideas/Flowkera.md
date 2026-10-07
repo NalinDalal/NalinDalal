@@ -55,7 +55,7 @@ Underneath, it is mostly APIs, webhooks, authentication, queues, and a workflow 
 
 ## 2. The real design problem
 
-Naive framing: *"I'll make another Zapier."*
+Naive framing: _"I'll make another Zapier."_
 
 That framing is dead. Two facts make it dead:
 
@@ -148,7 +148,7 @@ PASS / FAIL
 
 Then `v1.4 → v1.5` produces an automated diff, runs the suite, gates a PR, and ships.
 
-> n8n already has Git-based source control/environments and replay/retry. So this is not invented from nothing — the room is in making the *developer workflow* software-engineering-like.
+> n8n already has Git-based source control/environments and replay/retry. So this is not invented from nothing — the room is in making the _developer workflow_ software-engineering-like.
 
 Recruiter value: distributed systems, CI/CD, queues, API integrations, testing, versioning, secrets, observability, failure recovery — not "I made a chatbot".
 
@@ -374,20 +374,20 @@ flowkera/
     └── migrations/
 ```
 
-| Concern | Choice |
-| --- | --- |
-| Frontend | Next.js / React |
-| API | TypeScript + Fastify |
-| Database | PostgreSQL |
-| Queue | Redis + BullMQ |
-| Observability | OpenTelemetry |
-| Storage | S3-compatible object store (later) |
+| Concern       | Choice                             |
+| ------------- | ---------------------------------- |
+| Frontend      | Next.js / React                    |
+| API           | TypeScript + Fastify               |
+| Database      | PostgreSQL                         |
+| Queue         | Redis + BullMQ                     |
+| Observability | OpenTelemetry                      |
+| Storage       | S3-compatible object store (later) |
 
-**Do not put Gmail/Slack/etc. credentials in Flowkera initially.** Let n8n own them. n8n stores credential data encrypted and its workflow model separates config from credential material — its package format records credential *requirements* without exporting secrets. This massively shrinks our security surface.
+**Do not put Gmail/Slack/etc. credentials in Flowkera initially.** Let n8n own them. n8n stores credential data encrypted and its workflow model separates config from credential material — its package format records credential _requirements_ without exporting secrets. This massively shrinks our security surface.
 
 ### Phase 3 — Flowkera's own workflow model
 
-Not to replace n8n — to stop Flowkera's internals from becoming *"whatever n8n happens to store this month."*
+Not to replace n8n — to stop Flowkera's internals from becoming _"whatever n8n happens to store this month."_
 
 ```ts
 type Workflow = {
@@ -569,11 +569,11 @@ Buttons: `Retry` `Replay` `Disable` `Rollback` `Pause` `Open incident`
 
 They are **not** the same operation:
 
-| Operation | Meaning |
-| --- | --- |
-| **Retry** | Try the failed operation again |
-| **Replay** | Re-execute the workflow from recorded input/state |
-| **Rollback** | Make a previous workflow version active |
+| Operation    | Meaning                                           |
+| ------------ | ------------------------------------------------- |
+| **Retry**    | Try the failed operation again                    |
+| **Replay**   | Re-execute the workflow from recorded input/state |
+| **Rollback** | Make a previous workflow version active           |
 
 n8n already supports retry-from-execution (with original or currently-saved workflow). Flowkera turns that low-level feature into a version-aware incident/recovery system.
 
@@ -594,7 +594,7 @@ Lead qualification — 12,481 executions
 
 This is what makes it useful to ops/engineering teams, not just automation builders.
 
-### Phase 15 — AI, but only *after* the system has data
+### Phase 15 — AI, but only _after_ the system has data
 
 Not "AI builds workflows" (commodity). Instead:
 
@@ -634,7 +634,7 @@ while (execution.queue.length > 0) {
 }
 ```
 
-n8n's engine already has execution stacks, waiting-execution state, source/connection data, runtime context, cancellation, and resumability. Those are the concepts to reproduce *experimentally*, not to copy from n8n's implementation.
+n8n's engine already has execution stacks, waiting-execution state, source/connection data, runtime context, cancellation, and resumability. Those are the concepts to reproduce _experimentally_, not to copy from n8n's implementation.
 
 ### Phase 17 — A real queue
 
@@ -764,67 +764,12 @@ That is already a real product concept.
 
 ## 7. What NOT to build (initially)
 
-| Don't build | Why |
-| --- | --- |
-| 9,000 integrations | Zapier has them; n8n has 500+; they're exposed via MCP/SDKs |
-| AI workflow generator | becoming table stakes |
-| A pretty workflow editor | n8n already has one |
-| Your own credential vault | n8n solves it; it would enlarge our attack surface |
-
----
-
-## 8. The AI / agent layer (from the CEO → Marketing Manager thread)
-
-This is where a deterministic workflow becomes dynamic orchestration.
-
-```
-Trigger
-   ↓
-AI Manager
-   ↓
-Decide what needs to happen
-   ↓
-Create tasks
-   ↓
-Specialist agents
-   ├── SEO agent
-   ├── Outreach agent
-   ├── Social agent
-   └── Research agent
-   ↓
-Manager reviews results
-   ↓
-Execute actions
-```
-
-Example flow:
-
-```
-New company added to prospect list
-   ↓
-Marketing Manager
-   ↓
-Research company → Find decision maker → Analyze website
-   ↓
-Generate outreach
-   ↓
-Human approval
-   ↓
-Send
-```
-
-**The AI must not have unrestricted access.** Explicit tool grants:
-
-```
-Marketing Manager
-  CAN:     search_web, create_task, assign_task, read_campaign, request_approval
-  CANNOT:  send_email, spend_money, delete_data
-
-Outreach agent
-  CAN:     search_contacts, draft_email, send_email_after_approval
-```
-
-That gives permissions and auditability — and it maps onto Flowkera's policy engine.
+| Don't build               | Why                                                         |
+| ------------------------- | ----------------------------------------------------------- |
+| 9,000 integrations        | Zapier has them; n8n has 500+; they're exposed via MCP/SDKs |
+| AI workflow generator     | becoming table stakes                                       |
+| A pretty workflow editor  | n8n already has one                                         |
+| Your own credential vault | n8n solves it; it would enlarge our attack surface          |
 
 ---
 
@@ -859,12 +804,24 @@ Kept for reference. This is the shape of the **eventual** Flowkera engine, and t
   "name": "Lead Qualification",
   "trigger": { "app": "webhook", "event": "lead.created" },
   "steps": [
-    { "id": "1", "app": "openai", "action": "classify",
-      "input": { "text": "{{trigger.email}}" } },
-    { "id": "2", "app": "hubspot", "action": "update_contact",
-      "input": { "status": "{{steps.1.result}}" } },
-    { "id": "3", "app": "slack", "action": "send_message",
-      "input": { "message": "New lead classified as {{steps.1.result}}" } }
+    {
+      "id": "1",
+      "app": "openai",
+      "action": "classify",
+      "input": { "text": "{{trigger.email}}" }
+    },
+    {
+      "id": "2",
+      "app": "hubspot",
+      "action": "update_contact",
+      "input": { "status": "{{steps.1.result}}" }
+    },
+    {
+      "id": "3",
+      "app": "slack",
+      "action": "send_message",
+      "input": { "message": "New lead classified as {{steps.1.result}}" }
+    }
   ]
 }
 ```
