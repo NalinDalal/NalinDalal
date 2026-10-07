@@ -17,14 +17,13 @@
 - Comprehensive AI layer
 - Github integration
 
-### 3. **n8n**
-
 ---
 
 # LLM Parsers / Agents
 
-- **Cursor for Blender**
-  - [github](https://github.com/ahujasid/blender-mcp)
+- **Cursor for Blender/2d Animation**
+  Like create some 2d animation via script, but the script gnrt via llm
+  [github](https://github.com/ahujasid/blender-mcp)
 
   ```mermaid
   graph TD
@@ -32,13 +31,8 @@
   B --> C[Blender]
   ```
 
-- **Cursor for 2D animated libraries**
-  Like create some 2d animation via script, but the script gnrt via llm
-
 - **same.dev**
   Things to learn - Indexing websites - GPT APIs - Remix functionality - User specific deployments/workflows
 
 - **Cursor for calendar**
   Anything let me chat with my calendar, book meetings, and integrate with my email correctly.
-
-
