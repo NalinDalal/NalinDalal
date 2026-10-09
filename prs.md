@@ -4,7 +4,7 @@ Merged and open PRs across open-source projects.
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 38 | Open PRs: 6
+📊 Total Merged PRs: 38 | Open PRs: 7
 
 ## ✅ Merged PRs
 - **[Agent loop done](https://github.com/nerdev-co/DriftLock/pull/27)**  
@@ -160,6 +160,10 @@ Merged and open PRs across open-source projects.
   > c++ code.
 
 ## 🟡 Open PRs
+- **[updates](https://github.com/nerdev-co/DriftLock/pull/28)**  
+  _nerdev-co/DriftLock_ • `2026-10-09T12:42:56Z`  
+  > Updates existing functionality.
+
 - **[fix(streamstore): reject non-finite timestamps in append record factories](https://github.com/s2-streamstore/s2-sdk-typescript/pull/349)**  
   _s2-streamstore/s2-sdk-typescript_ • `2026-09-06T14:07:51Z`  
   > Fixes a bug or issue.
