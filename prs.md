@@ -4,9 +4,13 @@ Merged and open PRs across open-source projects.
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 39 | Open PRs: 6
+📊 Total Merged PRs: 40 | Open PRs: 5
 
 ## ✅ Merged PRs
+- **[feat: hindi translation for environment](https://github.com/processing/p5.js-website/pull/1529)**  
+  _processing/p5.js-website_ • `2026-10-14T15:34:51Z`  
+  > feat: hindi translation for environment.
+
 - **[updates](https://github.com/nerdev-co/DriftLock/pull/28)**  
   _nerdev-co/DriftLock_ • `2026-10-09T19:05:21Z`  
   > Updates existing functionality.
@@ -167,10 +171,6 @@ Merged and open PRs across open-source projects.
 - **[fix(streamstore): reject non-finite timestamps in append record factories](https://github.com/s2-streamstore/s2-sdk-typescript/pull/349)**  
   _s2-streamstore/s2-sdk-typescript_ • `2026-09-06T14:07:51Z`  
   > Fixes a bug or issue.
-
-- **[feat: hindi translation for environment](https://github.com/processing/p5.js-website/pull/1529)**  
-  _processing/p5.js-website_ • `2026-07-23T12:41:40Z`  
-  > feat: hindi translation for environment.
 
 - **[`client/modules/Preview`: migrate to TypeScript, no-verify](https://github.com/processing/p5.js-web-editor/pull/4117)**  
   _processing/p5.js-web-editor_ • `2026-05-15T19:08:44Z`  
