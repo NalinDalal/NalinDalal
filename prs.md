@@ -4,7 +4,7 @@ Merged and open PRs across open-source projects.
 
 <!-- PRS-START -->
 
-📊 Total Merged PRs: 40 | Open PRs: 5
+📊 Total Merged PRs: 40 | Open PRs: 4
 
 ## ✅ Merged PRs
 - **[feat: hindi translation for environment](https://github.com/processing/p5.js-website/pull/1529)**  
@@ -168,10 +168,6 @@ Merged and open PRs across open-source projects.
   > c++ code.
 
 ## 🟡 Open PRs
-- **[fix(streamstore): reject non-finite timestamps in append record factories](https://github.com/s2-streamstore/s2-sdk-typescript/pull/349)**  
-  _s2-streamstore/s2-sdk-typescript_ • `2026-09-06T14:07:51Z`  
-  > Fixes a bug or issue.
-
 - **[`client/modules/Preview`: migrate to TypeScript, no-verify](https://github.com/processing/p5.js-web-editor/pull/4117)**  
   _processing/p5.js-web-editor_ • `2026-05-15T19:08:44Z`  
   > `client/modules/Preview`: migrate to TypeScript, no-verify.
