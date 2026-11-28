@@ -31,8 +31,29 @@
   B --> C[Blender]
   ```
 
-- **same.dev**
-  Things to learn - Indexing websites - GPT APIs - Remix functionality - User specific deployments/workflows
+---
 
-- **Cursor for calendar**
-  Anything let me chat with my calendar, book meetings, and integrate with my email correctly.
+# AI Interview Coach
+
+**Idea:** Upload your resume → AI grinds you with interview questions + scores your confidence, English, and eye contact via whisper + webcam → session log with what to improve.
+
+- Stack decided: Vite + Bun, Whisper for transcription, MediaPipe (in-browser, privacy-first) for eye contact, LLM for feedback
+
+### Resume → Questions
+
+- Upload PDF/DOCX → extract text (pdf-parse / mammoth)
+- LLM generates role-specific questions from resume (projects, tech, behavioral)
+- Output: ordered question list, one question shown at a time
+
+### Live Session
+
+- Mic recording via browser `MediaRecorder` → chunks → Whisper transcription (locally via whisper.cpp or OpenAI API)
+- Webcam face tracking in-browser with MediaPipe Face Mesh → eye-contact % per question
+- Filler-word + pacing detection from transcript (um/uh counts, words-per-min)
+- Timer per question (2 min hard stop, optional extend)
+
+### Report
+
+- Per-question breakdown: transcript, eye-contact %, filler words, WPM
+- LLM feedback: confidence signals in tone/repetition, English clarity, weak answers (e.g. no STAR), what to improve
+- Log saved locally (state-based, no accounts in v1)

@@ -1,5 +1,13 @@
 # Flowkera
 
+## 19. **Zapier**
+
+- Event Driven Architecture
+- Multiple servers, workers etc
+- Can pitch it to their own engineer for job
+- Distributed job runner
+- Payment retry engine
+
 > **The control plane for automation.**
 > Test · Version · Observe · Debug · Secure · Recover
 
@@ -1018,19 +1026,7 @@ Study n8n
 
 That is substantially stronger than a repository saying "Zapier clone".
 
-### Scope guard
-
-DriftLock remains the main thing. This stays a documented technical rabbit hole until it produces a real insight or becomes useful enough to deserve more time.
-
 ---
-
-## Name
-
-**Flowkera**
-
-Coined. No indexed results across general web, GitHub, LinkedIn, startups, SaaS, or AI searches — but that is **not** trademark clearance, and domain availability still needs a registrar/DNS check.
-
-Chosen because the project can evolve:
 
 ```
 n8n companion → automation control plane → automation platform

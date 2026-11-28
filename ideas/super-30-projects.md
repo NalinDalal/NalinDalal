@@ -5,7 +5,7 @@
 - Build in ts and then rust
 - Work on internals and read about - HTTP, WS, Redis, Kafka, Postgres
 
-### 2. **Option Trading Platform**  - super 30 2.0 1st project
+### 2. **Option Trading Platform** - super 30 2.0 1st project
 
 - [example-code](https://github.com/Rudra-Sankha-Sinhamahapatra/options-trading), [example-code-2](https://github.com/ashishmohapatra240/100xness-v2), [code3](https://github.com/abhayymishraa/exness/tree/main)
 
@@ -18,10 +18,7 @@
 - Bet some credentials, then option to cash out, both web2 and smart contract
 - probo.ai is closed now
 
-
 ### 4. **Code Editor similar to repl.it**
-
-
 
 ### 6. **Own N8N** - super 30 2.0 2nd proj
 
@@ -31,5 +28,3 @@
 
 - [system design](https://x.com/ashwinntwt/status/1976696954974323172?t=iFmE6kG9BSDf1fmLQj5LaA&s=08), [architecture](https://x.com/abhayytwt/status/1986465436238786837)
 - Well write b2b from scratch
-
-
