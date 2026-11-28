@@ -3,7 +3,7 @@
 > **The control plane for automation.**
 > Test · Version · Observe · Debug · Secure · Recover
 
-Part of **Super 30 2.0 — Project #2** (successor to "Own n8n"). Main project remains **DriftLock**.
+Part of **Super 30 2.0 — Project #2** (successor to "Own n8n").
 
 ---
 
