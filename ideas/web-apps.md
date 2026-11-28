@@ -76,10 +76,6 @@
 - A self-hosted tool that plugs into GitHub, GitLab, and Bitbucket.
 - It supports custom lint rules, learns your team's coding style over time, and keeps everything private — perfect for startups, big companies, and OSS folks alike.
 
-## 15. **AI-Based Browser Extension**
-
-- Imagine a tool that can read official documents like passports or licenses and auto-fill web forms while respecting privacy and compliance.
-
 
 ## 16. **Service to put up text behind images**
 
@@ -111,4 +107,3 @@
 - [github-ref](https://github.com/design-first/system-designer)
 
 ## 21. UI Library: Hard Code it
-
